@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://svn.osgeo.org/metacrs/proj4js/branches/proj4js-1.0/lib/proj4js-combined.js"></script>  
+</head>
+<body>
+<script>
+// creating source and destination Proj4js objects
+// once initialized, these may be re-used as often as needed
+var source = new Proj4js.Proj('EPSG:4326');    //source coordinates will be in Longitude/Latitude, WGS84
+var dest = new Proj4js.Proj('EPSG:3785');     //destination coordinates in meters, global spherical mercators projection, see http://spatialreference.org/ref/epsg/3785/
+
+
+// transforming point coordinates
+var p = new Proj4js.Point(0.0,0.0);   //any object will do as long as it has 'x' and 'y' properties
+Proj4js.transform(source, dest, p);      //do the transformation.  x and y are modified in place
+
+console.log(p.x);
+console.log(p.y)
+//p.x and p.y are now EPSG:3785 in meters
+</script>
+</body>
+</html>
