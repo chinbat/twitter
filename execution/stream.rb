@@ -4,8 +4,8 @@ require "json"
 require '../yauth'
 
 begin
-  stdout_file = "../../data/stdout.log"
-  stderr_file = "../../data/stderr.log"
+  stdout_file = "../../data/logs/stdout.log"
+  stderr_file = "../../data/logs/stderr.log"
   $stdout.reopen(stdout_file,'a')
   $stderr.reopen(stderr_file,'a')
 
@@ -15,17 +15,17 @@ begin
   kilo = 1024
   locations = ["123.75,21.94,129.375,31.95","129.375,27.05,135,36.59","135,31.95,146.25,36.59","135,36.59,146.25,40.98","135,40.98,146.25,45.08"]
   
-  counter_file = "../../data/count_number"
+  counter_file = "../../data/logs/count_number"
   old_cnt = File.read(counter_file).to_i
   cnt = 0 # local counter
   twout_counter = old_cnt / file_number
-  twout_file = "../../data/twout#{twout_counter}.json"
+  twout_file = "../../data/tweets/twout#{twout_counter}.json"
   twout = File.open(twout_file,'a') # create a file and add this if the file is new: {"tweets":[
-  file_log_file = "../../data/file_log"
+  file_log_file = "../../data/logs/file_log"
   file_log = File.open(file_log_file,'a')
   file_log.puts "Started to write to twout#{twout_counter}.json at #{DateTime.now}"
   file_log.close
-  process_file = "../../data/process_log"
+  process_file = "../../data/logs/process_log"
   process = File.open(process_file,'a')
 
   client = Twitter::Streaming::Client.new do |config|
@@ -71,12 +71,12 @@ begin
         process = File.open(process_file,'a') # change it to append, after start to collect tweets
         if old_cnt % file_number == 0 
           file_log = File.open(file_log_file,'a')
-          file_log.puts "Finished to write to twout#{twout_counter}.json(#{File.size("../../data/twout#{twout_counter}.json")/1024} KB) at #{DateTime.now}"
+          file_log.puts "Finished to write to twout#{twout_counter}.json(#{File.size("../../data/tweets/twout#{twout_counter}.json")/1024} KB) at #{DateTime.now}"
           twout_counter = old_cnt / file_number
           file_log.puts "Started to write to twout#{twout_counter}.json at #{DateTime.now}"
           file_log.close
           twout.close
-          twout_file = "../../data/twout#{twout_counter}.json"
+          twout_file = "../../data/tweets/twout#{twout_counter}.json"
           twout = File.open(twout_file,'a')
           if old_cnt % notify_number == 0
             rest_client.update("@chinbaa_chi Process is being normal. Tweets: #{old_cnt} at #{DateTime.now}")
