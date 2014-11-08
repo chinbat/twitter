@@ -1,12 +1,16 @@
 require 'json'
 
-json = File.read('twout.json')
+start = Time.now
+
+json = File.read('twout0.json')
 data_array = JSON.parse(json)['tweets']
 cnt = 0
-start = Time.now
 
 data_array.each do |tweet|
   cnt += 1
+  if tweet["text"] == "null"
+    puts tweet["id"]
+  end
 end
 puts Time.now-start
 
