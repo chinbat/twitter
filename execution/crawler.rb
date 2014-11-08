@@ -1,15 +1,16 @@
 require 'net/http'
 require 'date'
 
-
+cnt_file = "/media/img/cnt_num"
+$cnt = File.read(cnt_file).to_i
 $base_url = "http://weather.map.c.yimg.jp/weather?"
-$dir = "img/201207/"
+$dir = "/media/img/201207/"
 first = Time.new(2012,7,20,20,20)
-target = Time.new(2012,12,31,23,55)
+target = Time.new(2012,7,31,23,55)
 date = first
-log_file = "img/log"
+log_file = "/media/img/log"
 $log = File.open(log_file,'a')
-error_file = "img/error"
+error_file = "/media/img/error"
 $error = File.open(error_file,'a')
 
 def save_img(x,y,date)
@@ -27,8 +28,12 @@ def save_img(x,y,date)
     img << response.body
     img.close
     $log.puts "#{x},#{y},#{date_string},#{File.size(filename)}"
+    $cnt += 1
   elsif response.code == "403" or response.code == "503"
     $error.puts "Error: x=#{x} y=#{y} date=#{date_string}"
+    cnt_num = File.open(cnt_file,'w')
+    cnt_num.puts $cnt
+    cnt_num.close
     exit
   elsif response.code == "404"
     $error.puts "No date: x=#{x} y=#{y} date=#{date_string}"
@@ -47,6 +52,10 @@ while date <= target do
   save_img(57,7,date)
   save_img(57,8,date)
   date += 300
+  cnt_num = File.open(cnt_file,'w')
+  cnt_num.puts $cnt
+  cnt_num.close
+  # log-g bas end haaj nee.
 end
 
 
