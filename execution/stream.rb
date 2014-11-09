@@ -17,7 +17,6 @@ begin
   
   counter_file = "../../data/logs/count_number"
   old_cnt = File.read(counter_file).to_i
-  cnt = 0 # local counter
   twout_counter = old_cnt / file_number
   twout_file = "../../data/tweets/twout#{twout_counter}.json"
   twout = File.open(twout_file,'a') # create a file and add this if the file is new: {"tweets":[
@@ -52,17 +51,15 @@ begin
       twout.print '    ' 
       twout.print tweet_hash.to_json
       twout.puts ','
-      cnt += 1
-      if cnt == process_log_number
+      old_cnt += 1
+      if old_cnt % process_log_number == 0
         finish = Time.now
         diff = finish - start
         start = finish
         time = Time.new
         process.print "#{time.year}-#{time.month}-#{time.day} #{time.hour}:#{time.min}:#{time.sec}, #{diff}"
         counter = File.open(counter_file,'w')
-        old_cnt += cnt
         counter.puts old_cnt
-        cnt = 0
         counter.close
         twout.close
         twout = File.open(twout_file,'a')
