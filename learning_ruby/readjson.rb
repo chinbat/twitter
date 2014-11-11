@@ -2,7 +2,7 @@ require 'json'
 
 start = Time.now
 
-json = File.read('twout7.json')
+json = File.read('twout8.json')
 data_array = JSON.parse(json)['tweets']
 cnt = 0
 

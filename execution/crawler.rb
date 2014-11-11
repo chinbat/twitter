@@ -1,12 +1,14 @@
 require 'net/http'
 require 'date'
 
+begin
+
 cnt_file = "/media/img/cnt_num"
 $cnt = File.read(cnt_file).to_i
 $base_url = "http://weather.map.c.yimg.jp/weather?"
 $dir = "/media/img/201207/"
-first = Time.new(2012,7,20,20,20)
-target = Time.new(2012,7,31,23,55)
+first = Time.new(2012,7,28,10,25)
+target = Time.new(2012,7,28,10,25)
 date = first
 log_file = "/media/img/log"
 $log = File.open(log_file,'a')
@@ -58,4 +60,6 @@ while date <= target do
   # log-g bas end haaj nee.
 end
 
-
+rescue Exception => e
+  $error.puts e.message
+end

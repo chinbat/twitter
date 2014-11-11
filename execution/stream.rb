@@ -52,15 +52,15 @@ begin
       twout.print tweet_hash.to_json
       twout.puts ','
       old_cnt += 1
+      counter = File.open(counter_file,'w')
+      counter.puts old_cnt
+      counter.close
       if old_cnt % process_log_number == 0
         finish = Time.now
         diff = finish - start
         start = finish
         time = Time.new
         process.print "#{time.year}-#{time.month}-#{time.day} #{time.hour}:#{time.min}:#{time.sec}, #{diff}"
-        counter = File.open(counter_file,'w')
-        counter.puts old_cnt
-        counter.close
         twout.close
         twout = File.open(twout_file,'a')
         process.puts ", #{old_cnt}, #{File.size(twout_file)/1024}"
