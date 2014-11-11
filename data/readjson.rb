@@ -9,7 +9,6 @@ cnt = 0
 data_array.each do |tweet|
   if tweet["text"].include? "雨"
     cnt += 1 
-    puts "#{cnt}: #{tweet['text']}"
   end
 end
 puts Time.now-start
