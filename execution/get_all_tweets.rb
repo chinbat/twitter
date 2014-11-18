@@ -3,18 +3,22 @@ require "twitter"
 require '../yauth'
 
 begin
-  stdout_file = "stdout.log"
-  stderr_file = "stderr.log"
+  stdout_file = "/home/green/user_tweets/stdout.log"
+  stderr_file = "/home/green/user_tweets/stderr.log"
   $stdout.reopen(stdout_file,'a')
   $stderr.reopen(stderr_file,'a')
-
+  
+  log_file = "/home/green/user_tweets/log"
+  log = File.open(log_file,'a')
   done_list = Set.new
-  done = File.open('done_1.txt').read
+  done_file = "/home/green/user_tweets/done_1.txt"
+  done = File.open(done_file).read
   done.each_line do |line|
     done_list.add(line.to_i)
   end
-  done = File.open('done_1.txt','a')
-  ids = File.open('ids_1.txt').read
+  done = File.open(done_file,'a')
+  ids_file = "/home/green/user_tweets/ids_1.txt"
+  ids = File.open(ids_file).read
   client = Twitter::REST::Client.new do |config|
     config.consumer_key        = CONKEY
     config.consumer_secret     = CONSEC 
@@ -29,7 +33,7 @@ begin
   end
 
   def client.get_all_tweets(user_id)
-    f = open("user_tweets/#{user_id}.json","a")
+    f = open("/home/green/user_tweets/tweets/#{user_id}.json","a")
     cnt = 0
     tweets = Array.new
     user = user(user_id)
@@ -55,16 +59,21 @@ begin
   user_cnt = 0
   ids.each_line do |line|
     id = line.to_i
-    user = client.user(id)
-    if user.statuses_count >= 3000
-      if !done_list.include? id
+    if !done_list.include? id and client.user?(id)
+      user = client.user(id)
+      if user.statuses_count >= 3000 and !user.protected?
+        prev_time = Time.now
 	client.get_all_tweets(id)
+        next_time = Time.now
+        log.puts "Collected tweets of user #{id} at #{DateTime.now}. Time:#{next_time-prev_time}"
+        log.close
+        log = File.open(log_file,'a')
 	done.puts id
 	done.close
 	user_cnt += 1
 	done_list.add(id)
-	done = File.open('done_1.txt','a')
-	if user_cnt % 11 == 0
+	done = File.open(done_file,'a')
+	if user_cnt % 9 == 0
 	  sleep(1000)
 	end
       end
