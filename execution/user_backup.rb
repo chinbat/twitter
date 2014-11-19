@@ -1,5 +1,8 @@
 require 'fileutils'
 
+log_source = "/home/green/user_tweets/log"
+log_target = "/media/user_tweets/log"
+FileUtils.cp(log_source,log_target)
 source = "/home/green/user_tweets/done_1.txt"
 target = "/media/user_tweets/done_1.txt"
 FileUtils.cp(source,target)

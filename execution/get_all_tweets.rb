@@ -80,6 +80,6 @@ begin
     end
   end
 rescue Exception => e
-  client.update("@chinbaa_chi Error has occured in User tweets collecting process at #{DateTime.now}.")
+  client.update("@chinbaa_chi Error has occured in User tweets collecting process at #{DateTime.now}. Remove done ids from ids.txt file.")
   puts "Erros has occured at #{DateTime.now}. Error message is: #{e.message}"
 end
