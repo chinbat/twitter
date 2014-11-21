@@ -80,6 +80,33 @@ begin
     end
   end
 rescue Exception => e
-  client.update("@chinbaa_chi Error has occured in User tweets collecting process at #{DateTime.now}. Remove done ids from ids.txt file.")
+  client.update("@chinbaa_chi Error has occured in User tweets collecting process at #{DateTime.now}.")
   puts "Erros has occured at #{DateTime.now}. Error message is: #{e.message}"
+  done.close
+ 
+  last_id = IO.readlines(done_file)[-1].to_i
+  ids = File.open(ids_file).read
+
+  thereis = false
+  ids.each_line do |line|
+    if line.to_i == last_id
+      thereis = true
+      break
+    end
+  end
+
+  if thereis
+    file = File.open("ids",'w')
+    reached = false
+    ids.each_line do |line|
+      if !reached
+	reached = true unless last_id != line.to_i
+      else
+	file.puts line
+      end
+    end
+    file.close 
+  end
+  sleep(1000)
+  retry
 end
