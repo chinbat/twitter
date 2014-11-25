@@ -82,6 +82,7 @@ begin
 rescue Exception => e
   client.update("@chinbaa_chi Error has occured in User tweets collecting process at #{DateTime.now}.")
   puts "Erros has occured at #{DateTime.now}. Error message is: #{e.message}"
+  puts "done_file: #{done_file}"
   done.close
  
   last_id = IO.readlines(done_file)[-1].to_i
@@ -96,7 +97,7 @@ rescue Exception => e
   end
 
   if thereis
-    file = File.open("ids",'w')
+    file = File.open(ids_file,'w')
     reached = false
     ids.each_line do |line|
       if !reached
