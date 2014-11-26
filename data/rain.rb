@@ -5,7 +5,7 @@ require 'chunky_png'
 
 json = File.read('small.json')
 data_array = JSON.parse(json)
-#rain = File.open('rain.json','w')
+rain = File.open('rain.json','w')
 
 cnt = 0
 $base_url = "http://weather.map.c.yimg.jp/weather?"
@@ -54,6 +54,43 @@ data_array['tweets'].each do |tweet|
     end
   end
   image = ChunkyPNG::Image.from_file(filename)
-  puts ChunkyPNG::Color.to_truecolor_bytes(image[xpos,ypos])
+  color = ChunkyPNG::Color.to_hex(image[xpos,255-ypos], include_alph = false)
+  rain_v = 0
+  case color
+  when "#ccffff"
+    rain_v = 1
+  when "#66ffff"
+    rain_v = 2
+  when "#00ccff"
+    rain_v = 3
+  when "#0099ff"
+    rain_v = 4
+  when "#3366ff"
+    rain_v = 5
+  when "#33ff00"
+    rain_v = 6
+  when "#33cc00"
+    rain_v = 7
+  when "#199900"
+    rain_v = 8
+  when "#ffff00"
+    rain_v = 9
+  when "#ffcc00"
+    rain_v = 10
+  when "#ff9900"
+    rain_v = 11
+  when "#ff5066"
+    rain_v = 12
+  when "#ff0000"
+    rain_v = 13
+  when "#b70014"
+    rain_v = 14
+  else
+    rain_v = 15
+  end
+  tweet["rain"] = rain_v
+  tweet["useful"] = 2    
 end
+
+rain.puts data_array.to_json
 
