@@ -1,0 +1,1461 @@
+Tweet:534182715793227776, 2014-11-29T02:46:24+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.403474422, MeCabTime:0.000958222, UsedTime:0.405001502
+
+Tweet:534182718049751040, 2014-11-29T02:46:24+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.408081992, MeCabTime:0.000388108, UsedTime:0.408650081
+
+Tweet:534182721157750784, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171210, filename:img/2014/11/17/x56y7_1210.png, 
+readed png, RainTime:0.343926348, MeCabTime:0.000330838, UsedTime:0.344403852
+
+Tweet:534182721833009153, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087460214, MeCabTime:0.00032106, UsedTime:0.087925706
+
+Tweet:534182724093755393, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086852595, MeCabTime:0.000337124, UsedTime:0.087313547
+
+Tweet:534182726337708032, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082616092, MeCabTime:0.000434483, UsedTime:0.083157921
+
+Tweet:534182726752940032, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088466278, MeCabTime:0.000371625, UsedTime:0.088967109
+
+Tweet:534182728099303425, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087825065, MeCabTime:0.000311771, UsedTime:0.088260385
+
+Tweet:534182731840626689, 2014-11-29T02:46:25+09:00, not japanese, Tweet:534182733291847680, 2014-11-29T02:46:25+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171210, filename:img/2014/11/17/x56y7_1210.png, 
+readed png, RainTime:0.089717205, MeCabTime:0.000314076, UsedTime:0.090125218
+
+Tweet:534182733841326080, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088145497, MeCabTime:0.000428616, UsedTime:0.088701643
+
+Tweet:534182734952808448, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086892824, MeCabTime:0.000322597, UsedTime:0.087325141
+
+Tweet:534182737943355392, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.082214017, MeCabTime:0.000377143, UsedTime:0.082700251
+
+Tweet:534182738249535488, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087907268, MeCabTime:0.000337473, UsedTime:0.088379465
+
+Tweet:534182741265231872, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087834773, MeCabTime:0.000344317, UsedTime:0.088304595
+
+Tweet:534182742037393409, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.08973697, MeCabTime:0.000446635, UsedTime:0.090303313
+
+Tweet:534182746197733376, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088001135, MeCabTime:0.000446426, UsedTime:0.088563916
+
+Tweet:534182752644370433, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086855109, MeCabTime:0.000352908, UsedTime:0.087319205
+
+Tweet:534182753374203906, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082170644, MeCabTime:0.000375746, UsedTime:0.082654505
+
+Tweet:534182755219693568, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087910272, MeCabTime:0.000341244, UsedTime:0.088383026
+
+Tweet:534182761783762944, 2014-11-29T02:46:26+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087771566, MeCabTime:0.000350883, UsedTime:0.088251586
+
+Tweet:534182761418866688, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.090023878, MeCabTime:0.000348997, UsedTime:0.090494259
+
+Tweet:534182762538745857, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087979205, MeCabTime:0.00031666, UsedTime:0.08841222
+
+Tweet:534182763050455041, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086698036, MeCabTime:0.000317499, UsedTime:0.087127421
+
+Tweet:534182763218231296, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082928213, MeCabTime:0.000353816, UsedTime:0.083391749
+
+Tweet:534182765520904193, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087969986, MeCabTime:0.000340406, UsedTime:0.088441065
+
+Tweet:534182766204579840, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087865154, MeCabTime:0.000331676, UsedTime:0.088323173
+
+Tweet:534182766296850433, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.090115579, MeCabTime:0.000342781, UsedTime:0.090579116
+
+Tweet:534182767831965697, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087992893, MeCabTime:0.000310235, UsedTime:0.088420951
+
+Tweet:534182768125935617, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086715287, MeCabTime:0.000405568, UsedTime:0.087232182
+
+Tweet:534182769551634432, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082161076, MeCabTime:0.000353607, UsedTime:0.082622029
+
+Tweet:534182769924923392, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088067973, MeCabTime:0.000323435, UsedTime:0.088525503
+
+Tweet:534182773268164608, 2014-11-29T02:46:27+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171210, filename:img/2014/11/17/x57y8_1210.png, 
+readed png, RainTime:0.294590115, MeCabTime:0.000414438, UsedTime:0.295138509
+
+Tweet:534182776379932672, 2014-11-29T02:46:28+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.090279637, MeCabTime:0.000340336, UsedTime:0.090812595
+
+Tweet:534182776598061056, 2014-11-29T02:46:28+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088135509, MeCabTime:0.000358705, UsedTime:0.088634176
+
+Tweet:534182778300944384, 2014-11-29T02:46:28+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086843864, MeCabTime:0.000333213, UsedTime:0.087288405
+
+Tweet:534182777852162049, 2014-11-29T02:46:28+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.08215528, MeCabTime:0.000369112, UsedTime:0.082645496
+
+Tweet:534182778678431744, 2014-11-29T02:46:28+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088076004, MeCabTime:0.000361219, UsedTime:0.088569084
+
+Tweet:534182779391467521, 2014-11-29T02:46:28+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171210, filename:img/2014/11/17/x57y7_1210.png, 
+readed png, RainTime:0.351232654, MeCabTime:0.000393905, UsedTime:0.351751015
+
+Tweet:534182779194331136, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087204944, MeCabTime:0.000351581, UsedTime:0.087702913
+
+Tweet:534182784244252673, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087036627, MeCabTime:0.000333771, UsedTime:0.087486055
+
+Tweet:534182784412049410, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087291198, MeCabTime:0.000364083, UsedTime:0.08776577
+
+Tweet:534182785180008448, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.081721146, MeCabTime:0.00047122, UsedTime:0.082301737
+
+Tweet:534182785255501824, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087039071, MeCabTime:0.000402566, UsedTime:0.087573916
+
+Tweet:534182786010071041, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.089416329, MeCabTime:0.000406058, UsedTime:0.089955923
+
+Tweet:534182787637469184, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171210, filename:img/2014/11/17/x57y8_1210.png, 
+readed png, RainTime:0.088101636, MeCabTime:0.000334958, UsedTime:0.088567268
+
+Tweet:534182788992212992, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087072944, MeCabTime:0.000324203, UsedTime:0.087512106
+
+Tweet:534182789768175616, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088307738, MeCabTime:0.000324692, UsedTime:0.088743687
+
+Tweet:534182790703493120, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.08174594, MeCabTime:0.000364362, UsedTime:0.082218136
+
+Tweet:534182790854488065, 2014-11-29T02:46:29+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086915731, MeCabTime:0.000406057, UsedTime:0.08745784
+
+Tweet:534182791957594112, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.089569561, MeCabTime:0.000324274, UsedTime:0.090018221
+
+Tweet:534182793157165056, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.088111484, MeCabTime:0.000319454, UsedTime:0.088547852
+
+Tweet:534182793777905664, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087177007, MeCabTime:0.000311562, UsedTime:0.087605274
+
+Tweet:534182795820531712, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087323185, MeCabTime:0.000325111, UsedTime:0.087759344
+
+Tweet:534182797175304193, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.082092632, MeCabTime:0.000403892, UsedTime:0.082606594
+
+Tweet:534182797934460928, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086911471, MeCabTime:0.000349835, UsedTime:0.087393306
+
+Tweet:534182802351087616, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.089699954, MeCabTime:0.000408781, UsedTime:0.090233332
+
+Tweet:534182802753716225, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088448119, MeCabTime:0.000311562, UsedTime:0.088889027
+
+Tweet:534182808621572096, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087196074, MeCabTime:0.000316242, UsedTime:0.087628462
+
+Tweet:534182809808957442, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087569864, MeCabTime:0.000390413, UsedTime:0.088070976
+
+Tweet:534182811259768832, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082085928, MeCabTime:0.000408013, UsedTime:0.082602264
+
+Tweet:534182811322687489, 2014-11-29T02:46:30+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087000169, MeCabTime:0.000343968, UsedTime:0.087477255
+
+Tweet:534182812283203584, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.089523884, MeCabTime:0.000338381, UsedTime:0.08998763
+
+Tweet:534182815110152193, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171210, filename:img/2014/11/17/x57y8_1210.png, 
+readed png, RainTime:0.088361516, MeCabTime:0.000309885, UsedTime:0.088792785
+
+Tweet:534182818566254593, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087982418, MeCabTime:0.00047527, UsedTime:0.088573065
+
+Tweet:534182820059439105, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087553452, MeCabTime:0.000327206, UsedTime:0.088030538
+
+Tweet:534182823150637057, 2014-11-29T02:46:31+09:00, not japanese, Tweet:534182823360348160, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171210, filename:img/2014/11/17/x56y7_1210.png, 
+readed png, RainTime:0.08191279, MeCabTime:0.000396559, UsedTime:0.082393927
+
+Tweet:534182824748650496, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087048989, MeCabTime:0.000360241, UsedTime:0.087542557
+
+Tweet:534182829039439872, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.089625433, MeCabTime:0.00036939, UsedTime:0.09011949
+
+Tweet:534182829282709504, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088255357, MeCabTime:0.000338661, UsedTime:0.088712958
+
+Tweet:534182830050258944, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087266125, MeCabTime:0.000361499, UsedTime:0.087744538
+
+Tweet:534182830973018112, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087531033, MeCabTime:0.000309885, UsedTime:0.087951896
+
+Tweet:534182832420040707, 2014-11-29T02:46:31+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.081810962, MeCabTime:0.000367226, UsedTime:0.082288188
+
+Tweet:534182833061785600, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.086963502, MeCabTime:0.000350604, UsedTime:0.087445827
+
+Tweet:534182833913225217, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.089533662, MeCabTime:0.000314984, UsedTime:0.089972964
+
+Tweet:534182835054055424, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088891123, MeCabTime:0.000322736, UsedTime:0.089334195
+
+Tweet:534182839743295488, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087225967, MeCabTime:0.000309955, UsedTime:0.087651439
+
+Tweet:534182841278427136, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087663243, MeCabTime:0.000298292, UsedTime:0.088071395
+
+Tweet:534182842821902337, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.081892537, MeCabTime:0.000366527, UsedTime:0.082367736
+
+Tweet:534182845602746368, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.086962385, MeCabTime:0.000324203, UsedTime:0.087419776
+
+Tweet:534182845812441089, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.089591561, MeCabTime:0.000402495, UsedTime:0.09011991
+
+Tweet:534182846923931648, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088374507, MeCabTime:0.000338521, UsedTime:0.088832735
+
+Tweet:534182847389507584, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087380245, MeCabTime:0.000323156, UsedTime:0.087818919
+
+Tweet:534182851302797312, 2014-11-29T02:46:32+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171210, filename:img/2014/11/17/x57y7_1210.png, 
+readed png, RainTime:0.094657428, MeCabTime:0.000323715, UsedTime:0.095091422
+
+Tweet:534182851667693568, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.081870187, MeCabTime:0.000357447, UsedTime:0.082336727
+
+Tweet:534182853563527168, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087960418, MeCabTime:0.000350464, UsedTime:0.08845678
+
+Tweet:534182853970382849, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.0882893, MeCabTime:0.000392089, UsedTime:0.088807034
+
+Tweet:534182853928824832, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087134544, MeCabTime:0.00038287, UsedTime:0.087633211
+
+Tweet:534182855975268353, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.087070151, MeCabTime:0.000390832, UsedTime:0.087595846
+
+Tweet:534182857791381504, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086861534, MeCabTime:0.000344877, UsedTime:0.08731683
+
+Tweet:534182862635819008, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082343362, MeCabTime:0.000358914, UsedTime:0.082810181
+
+Tweet:534182863382401024, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088046532, MeCabTime:0.000356051, UsedTime:0.088536399
+
+Tweet:534182866255486976, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.088068322, MeCabTime:0.000323923, UsedTime:0.088519147
+
+Tweet:534182867622842369, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087051364, MeCabTime:0.000338101, UsedTime:0.087509661
+
+Tweet:534182868449099776, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171210, filename:img/2014/11/17/x57y8_1210.png, 
+readed png, RainTime:0.088648354, MeCabTime:0.000317568, UsedTime:0.089079554
+
+Tweet:534182869300543488, 2014-11-29T02:46:33+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.086749998, MeCabTime:0.000331118, UsedTime:0.087191186
+
+Tweet:534182872182059008, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082199001, MeCabTime:0.000360311, UsedTime:0.082667775
+
+Tweet:534182872878301184, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.088093535, MeCabTime:0.000309886, UsedTime:0.088537865
+
+Tweet:534182872773435394, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087997293, MeCabTime:0.00033894, UsedTime:0.088486253
+
+Tweet:534182875550076929, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087189719, MeCabTime:0.000322947, UsedTime:0.087630767
+
+Tweet:534182875394879489, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.087082093, MeCabTime:0.00030779, UsedTime:0.087504284
+
+Tweet:534182875608801281, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171210, filename:img/2014/11/17/x55y6_1210.png, 
+readed png, RainTime:0.086988226, MeCabTime:0.000315892, UsedTime:0.087415725
+
+Tweet:534182884102254592, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171210, filename:img/2014/11/17/x56y6_1210.png, 
+readed png, RainTime:0.082208569, MeCabTime:0.000419397, UsedTime:0.082736639
+
+Tweet:534182890309820416, 2014-11-29T02:46:34+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.392518699, MeCabTime:0.000348997, UsedTime:0.392999906
+
+Tweet:534182890431451136, 2014-11-29T02:46:35+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.389756407, MeCabTime:0.00035242, UsedTime:0.390276515
+
+Tweet:534182890884440064, 2014-11-29T02:46:35+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08786676, MeCabTime:0.000299409, UsedTime:0.088313255
+
+Tweet:534182891283316738, 2014-11-29T02:46:35+09:00, not japanese, Tweet:534182892058841088, 2014-11-29T02:46:35+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086974119, MeCabTime:0.00031233, UsedTime:0.087376753
+
+Tweet:534182892109180929, 2014-11-29T02:46:35+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.32349854, MeCabTime:0.000424635, UsedTime:0.324046026
+
+Tweet:534182895225536513, 2014-11-29T02:46:35+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08274467, MeCabTime:0.000375048, UsedTime:0.083253534
+
+Tweet:534182895540129792, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086903719, MeCabTime:0.000372115, UsedTime:0.087412513
+
+Tweet:534182896135729155, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089335662, MeCabTime:0.000320571, UsedTime:0.089783903
+
+Tweet:534182896429694976, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088382189, MeCabTime:0.000427079, UsedTime:0.088926532
+
+Tweet:534182897310105600, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087128258, MeCabTime:0.000327066, UsedTime:0.087566722
+
+Tweet:534182899549868033, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.346178938, MeCabTime:0.000313727, UsedTime:0.346604342
+
+Tweet:534182902494273536, 2014-11-29T02:46:36+09:00, not japanese, Tweet:534182904012611584, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082996658, MeCabTime:0.000380216, UsedTime:0.083484359
+
+Tweet:534182905367392256, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087803763, MeCabTime:0.000347879, UsedTime:0.088288252
+
+Tweet:534182906189455360, 2014-11-29T02:46:36+09:00, not japanese, Tweet:534182906051059713, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087794265, MeCabTime:0.000411924, UsedTime:0.088304456
+
+Tweet:534182907573575680, 2014-11-29T02:46:36+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.086869776, MeCabTime:0.000335727, UsedTime:0.087332614
+
+Tweet:534182909637185536, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.086981871, MeCabTime:0.000342432, UsedTime:0.087439122
+
+Tweet:534182912900354051, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086695033, MeCabTime:0.000362127, UsedTime:0.087169465
+
+Tweet:534182914745839616, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.08225648, MeCabTime:0.000355352, UsedTime:0.08272267
+
+Tweet:534182914997514240, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087824506, MeCabTime:0.000336355, UsedTime:0.088293979
+
+Tweet:534182914313830400, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088615808, MeCabTime:0.000332375, UsedTime:0.089075084
+
+Tweet:534182914972323840, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087194258, MeCabTime:0.000323016, UsedTime:0.087636074
+
+Tweet:534182914372558850, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087308868, MeCabTime:0.000312749, UsedTime:0.087736645
+
+Tweet:534182915907665920, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086773674, MeCabTime:0.000368343, UsedTime:0.08725488
+
+Tweet:534182917417619457, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.082199908, MeCabTime:0.000453061, UsedTime:0.082761223
+
+Tweet:534182918541672449, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088102265, MeCabTime:0.000344667, UsedTime:0.088579071
+
+Tweet:534182919456055298, 2014-11-29T02:46:37+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087880589, MeCabTime:0.000365688, UsedTime:0.088372411
+
+Tweet:534182920424939521, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087025662, MeCabTime:0.000328882, UsedTime:0.087515319
+
+Tweet:534182926615724032, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087174493, MeCabTime:0.000317708, UsedTime:0.087607579
+
+Tweet:534182926712193024, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086861186, MeCabTime:0.000309885, UsedTime:0.08728149
+
+Tweet:534182928243113984, 2014-11-29T02:46:38+09:00, not japanese, Tweet:534182930872926208, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.0825246, MeCabTime:0.000434273, UsedTime:0.083043521
+
+Tweet:534182930608709632, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087985071, MeCabTime:0.000587644, UsedTime:0.088708208
+
+Tweet:534182931032309762, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087935763, MeCabTime:0.000345435, UsedTime:0.088431078
+
+Tweet:534182931405602816, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087183224, MeCabTime:0.000315194, UsedTime:0.087615891
+
+Tweet:534182931254616065, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090297377, MeCabTime:0.000334609, UsedTime:0.090747364
+
+Tweet:534182935595712512, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087386601, MeCabTime:0.000337892, UsedTime:0.087834354
+
+Tweet:534182937084690433, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.082427661, MeCabTime:0.000389924, UsedTime:0.082926747
+
+Tweet:534182938141659137, 2014-11-29T02:46:38+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=6&z=7&date=201411171215, filename:img/2014/11/17/x54y6_1215.png, 
+readed png, RainTime:0.373015661, MeCabTime:0.000374768, UsedTime:0.373523756
+
+Tweet:534182939920056320, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087652836, MeCabTime:0.000333422, UsedTime:0.088141795
+
+Tweet:534182940381425664, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087535503, MeCabTime:0.000332444, UsedTime:0.087987376
+
+Tweet:534182944366014464, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087243427, MeCabTime:0.000326578, UsedTime:0.08768622
+
+Tweet:534182944672206849, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.086743084, MeCabTime:0.000320082, UsedTime:0.087174982
+
+Tweet:534182946723606528, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.082257039, MeCabTime:0.000502089, UsedTime:0.082870315
+
+Tweet:534182950804652032, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088226652, MeCabTime:0.000439092, UsedTime:0.088797395
+
+Tweet:534182951139815425, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088205141, MeCabTime:0.00033873, UsedTime:0.088666932
+
+Tweet:534182952242933760, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087307681, MeCabTime:0.000310584, UsedTime:0.087736296
+
+Tweet:534182953761259520, 2014-11-29T02:46:39+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087589979, MeCabTime:0.000320921, UsedTime:0.088027186
+
+Tweet:534182956370124800, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086941154, MeCabTime:0.000328743, UsedTime:0.087381084
+
+Tweet:534182956844056577, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082402727, MeCabTime:0.000375746, UsedTime:0.082900765
+
+Tweet:534182957364162560, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088057776, MeCabTime:0.000348019, UsedTime:0.088551345
+
+Tweet:534182958878310400, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087951268, MeCabTime:0.000370508, UsedTime:0.088447561
+
+Tweet:534182959084240897, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087406296, MeCabTime:0.000399143, UsedTime:0.087933738
+
+Tweet:534182960052723713, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.08739142, MeCabTime:0.000310026, UsedTime:0.087815846
+
+Tweet:534182960144986112, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.086943179, MeCabTime:0.000332165, UsedTime:0.087389046
+
+Tweet:534182960543432704, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08244547, MeCabTime:0.000379657, UsedTime:0.082936035
+
+Tweet:534182961537875970, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088117141, MeCabTime:0.000362197, UsedTime:0.088613643
+
+Tweet:534182961604620288, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.08758097, MeCabTime:0.000942717, UsedTime:0.088649192
+
+Tweet:534182962862891009, 2014-11-29T02:46:40+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087557294, MeCabTime:0.000328254, UsedTime:0.088001903
+
+Tweet:534182963705966592, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087263331, MeCabTime:0.000353746, UsedTime:0.087732944
+
+Tweet:534182964846800896, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08699081, MeCabTime:0.000308279, UsedTime:0.087450436
+
+Tweet:534182965220085760, 2014-11-29T02:46:41+09:00, not japanese, Tweet:534182965824065536, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08237947, MeCabTime:0.000460743, UsedTime:0.082924512
+
+Tweet:534182966646157312, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088083757, MeCabTime:0.000362266, UsedTime:0.08857963
+
+Tweet:534182967162056704, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=4&z=7&date=201411171215, filename:img/2014/11/17/x54y4_1215.png, 
+readed png, RainTime:0.482612419, MeCabTime:0.000342642, UsedTime:0.483085384
+
+Tweet:534182970416836610, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088517681, MeCabTime:0.000327066, UsedTime:0.088992601
+
+Tweet:534182971398303744, 2014-11-29T02:46:41+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087402316, MeCabTime:0.00040913, UsedTime:0.087927033
+
+Tweet:534182972664987648, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088074678, MeCabTime:0.000317847, UsedTime:0.088503084
+
+Tweet:534182974044897280, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082050238, MeCabTime:0.00036967, UsedTime:0.082530188
+
+Tweet:534182976137863169, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087158291, MeCabTime:0.000374419, UsedTime:0.087667782
+
+Tweet:534182977358790656, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090351643, MeCabTime:0.00045306, UsedTime:0.09092944
+
+Tweet:534182977895288832, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088585078, MeCabTime:0.000353397, UsedTime:0.089055738
+
+Tweet:534182978264375296, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.0873829, MeCabTime:0.000323854, UsedTime:0.087822621
+
+Tweet:534182979027750913, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087491713, MeCabTime:0.000330279, UsedTime:0.087935344
+
+Tweet:534182979564609536, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082143546, MeCabTime:0.000354793, UsedTime:0.082618676
+
+Tweet:534182980994867201, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087207249, MeCabTime:0.000357727, UsedTime:0.087699979
+
+Tweet:534182982953619456, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090204558, MeCabTime:0.000350324, UsedTime:0.09067843
+
+Tweet:534182984547459072, 2014-11-29T02:46:42+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088928837, MeCabTime:0.000319035, UsedTime:0.089366182
+
+Tweet:534182986908856322, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087192024, MeCabTime:0.000398445, UsedTime:0.087707103
+
+Tweet:534182987366023168, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087468386, MeCabTime:0.00036953, UsedTime:0.087950151
+
+Tweet:534182987370205184, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.081930181, MeCabTime:0.000367854, UsedTime:0.082407616
+
+Tweet:534182987537985537, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087332754, MeCabTime:0.00048826, UsedTime:0.087956995
+
+Tweet:534182987860955136, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090128849, MeCabTime:0.000322038, UsedTime:0.090576602
+
+Tweet:534182991098945536, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087003033, MeCabTime:0.00033447, UsedTime:0.087456164
+
+Tweet:534182992793436160, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087357967, MeCabTime:0.000318057, UsedTime:0.087792239
+
+Tweet:534182994508926977, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087341414, MeCabTime:0.000427778, UsedTime:0.087881077
+
+Tweet:534182995104509952, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08274041, MeCabTime:0.000415905, UsedTime:0.083266245
+
+Tweet:534182995368763392, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.087117293, MeCabTime:0.000370578, UsedTime:0.087619941
+
+Tweet:534182996060815361, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.089883777, MeCabTime:0.000341244, UsedTime:0.090349827
+
+Tweet:534182996710944768, 2014-11-29T02:46:43+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088486602, MeCabTime:0.000342432, UsedTime:0.088946856
+
+Tweet:534182997642051584, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087123998, MeCabTime:0.000333981, UsedTime:0.087572798
+
+Tweet:534182997340065793, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087687617, MeCabTime:0.000345505, UsedTime:0.088146544
+
+Tweet:534182999064317952, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.081800905, MeCabTime:0.000480368, UsedTime:0.082390016
+
+Tweet:534183001911853056, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087202499, MeCabTime:0.000363384, UsedTime:0.08769942
+
+Tweet:534183002255790080, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.090290113, MeCabTime:0.000342013, UsedTime:0.090759237
+
+Tweet:534183004235902976, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.08862363, MeCabTime:0.000393486, UsedTime:0.089136335
+
+Tweet:534183006236602368, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088235453, MeCabTime:0.0005412, UsedTime:0.088889586
+
+Tweet:534183008514113538, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087664639, MeCabTime:0.000370997, UsedTime:0.088146265
+
+Tweet:534183009805557762, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.081909718, MeCabTime:0.000367784, UsedTime:0.082385127
+
+Tweet:534183010019467264, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08719817, MeCabTime:0.000346762, UsedTime:0.087679725
+
+Tweet:534183012879970304, 2014-11-29T02:46:44+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089873929, MeCabTime:0.000341454, UsedTime:0.090341027
+
+Tweet:534183020345823233, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088518589, MeCabTime:0.000319035, UsedTime:0.088957891
+
+Tweet:534183021641879552, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.087160525, MeCabTime:0.000298921, UsedTime:0.087572519
+
+Tweet:534183022959292417, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087443313, MeCabTime:0.00040005, UsedTime:0.087957064
+
+Tweet:534183023621586946, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082201305, MeCabTime:0.00039132, UsedTime:0.082700949
+
+Tweet:534183023973912576, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=6&z=7&date=201411171215, filename:img/2014/11/17/x54y6_1215.png, 
+readed png, RainTime:0.094433378, MeCabTime:0.00036073, UsedTime:0.094928831
+
+Tweet:534183023600623616, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087631814, MeCabTime:0.00032539, UsedTime:0.088079427
+
+Tweet:534183024414318593, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087193001, MeCabTime:0.00039607, UsedTime:0.087705776
+
+Tweet:534183028562481152, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087757389, MeCabTime:0.0003344, UsedTime:0.088203884
+
+Tweet:534183028642156544, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.081990733, MeCabTime:0.000383848, UsedTime:0.082484023
+
+Tweet:534183029057404928, 2014-11-29T02:46:45+09:00, not japanese, Tweet:534183030433132544, 2014-11-29T02:46:45+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=5&z=7&date=201411171215, filename:img/2014/11/17/x55y5_1215.png, 
+readed png, RainTime:0.446853821, MeCabTime:0.000394254, UsedTime:0.447359333
+
+Tweet:534183030894518272, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088329249, MeCabTime:0.00041381, UsedTime:0.088900551
+
+Tweet:534183032047931392, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087451694, MeCabTime:0.000430222, UsedTime:0.088000715
+
+Tweet:534183032614567936, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087435909, MeCabTime:0.000408222, UsedTime:0.087957693
+
+Tweet:534183037710262272, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087027198, MeCabTime:0.000348997, UsedTime:0.087487172
+
+Tweet:534183038012252160, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.082551489, MeCabTime:0.000358006, UsedTime:0.083019496
+
+Tweet:534183038192594944, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088317167, MeCabTime:0.000353187, UsedTime:0.088802354
+
+Tweet:534183039388360705, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088114696, MeCabTime:0.000413111, UsedTime:0.088653103
+
+Tweet:534183039866138624, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087436119, MeCabTime:0.000341175, UsedTime:0.087895395
+
+Tweet:534183040168128514, 2014-11-29T02:46:46+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087551287, MeCabTime:0.000337263, UsedTime:0.088006792
+
+Tweet:534183040302342144, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.08699563, MeCabTime:0.000329022, UsedTime:0.087438284
+
+Tweet:534183040398786561, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082906353, MeCabTime:0.000397746, UsedTime:0.08341347
+
+Tweet:534183043033219072, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.088169592, MeCabTime:0.000418908, UsedTime:0.088722176
+
+Tweet:534183043968139264, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088960056, MeCabTime:0.000343549, UsedTime:0.089438608
+
+Tweet:534183045465505792, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087549262, MeCabTime:0.000371835, UsedTime:0.08803871
+
+Tweet:534183046547664898, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08737389, MeCabTime:0.000354933, UsedTime:0.087843713
+
+Tweet:534183049337270272, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087065331, MeCabTime:0.000354584, UsedTime:0.087532779
+
+Tweet:534183052188987392, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.337496759, MeCabTime:0.000382311, UsedTime:0.337998009
+
+Tweet:534183052671348736, 2014-11-29T02:46:47+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087360551, MeCabTime:0.000344737, UsedTime:0.08791523
+
+Tweet:534183056085487616, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090087643, MeCabTime:0.000351442, UsedTime:0.090578208
+
+Tweet:534183057478012928, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.088748437, MeCabTime:0.000427498, UsedTime:0.089294036
+
+Tweet:534183057687736320, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087451624, MeCabTime:0.000377911, UsedTime:0.087944843
+
+Tweet:534183058585309184, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087742652, MeCabTime:0.000315613, UsedTime:0.088172316
+
+Tweet:534183059419975680, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082051216, MeCabTime:0.000366876, UsedTime:0.082528651
+
+Tweet:534183064151150595, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08715843, MeCabTime:0.000399912, UsedTime:0.08769111
+
+Tweet:534183064092438528, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.090552925, MeCabTime:0.000356749, UsedTime:0.091037135
+
+Tweet:534183065010970625, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088984081, MeCabTime:0.00032134, UsedTime:0.089421847
+
+Tweet:534183065191329792, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.087071198, MeCabTime:0.000341874, UsedTime:0.08752398
+
+Tweet:534183070396469248, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082538848, MeCabTime:0.00037386, UsedTime:0.083022848
+
+Tweet:534183070568415232, 2014-11-29T02:46:48+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.08842982, MeCabTime:0.000353118, UsedTime:0.088917802
+
+Tweet:534183071424053249, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088240551, MeCabTime:0.000333702, UsedTime:0.088699548
+
+Tweet:534183073756090368, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087401198, MeCabTime:0.000333283, UsedTime:0.087851395
+
+Tweet:534183073932275712, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088086341, MeCabTime:0.000332933, UsedTime:0.088556163
+
+Tweet:534183075312173057, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082154512, MeCabTime:0.000379099, UsedTime:0.08264361
+
+Tweet:534183076033613824, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087161922, MeCabTime:0.000341873, UsedTime:0.087638659
+
+Tweet:534183078860574720, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090653637, MeCabTime:0.000464304, UsedTime:0.091243306
+
+Tweet:534183081385537536, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088474658, MeCabTime:0.000322247, UsedTime:0.08891396
+
+Tweet:534183082237370369, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.087104163, MeCabTime:0.000390273, UsedTime:0.08760723
+
+Tweet:534183083499479040, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.089809605, MeCabTime:0.000400889, UsedTime:0.090320284
+
+Tweet:534183085651132416, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.094303822, MeCabTime:0.000333562, UsedTime:0.094769104
+
+Tweet:534183089371484160, 2014-11-29T02:46:49+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087626786, MeCabTime:0.000328533, UsedTime:0.08807796
+
+Tweet:534183091351203841, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=6&z=7&date=201411171215, filename:img/2014/11/17/x54y6_1215.png, 
+readed png, RainTime:0.094556228, MeCabTime:0.000323854, UsedTime:0.095019695
+
+Tweet:534183091401527296, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087976411, MeCabTime:0.000328673, UsedTime:0.088427516
+
+Tweet:534183091858718721, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08231368, MeCabTime:0.000370508, UsedTime:0.082794677
+
+Tweet:534183091657400320, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087238817, MeCabTime:0.00051459, UsedTime:0.087887572
+
+Tweet:534183095369338880, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.090988106, MeCabTime:0.000346622, UsedTime:0.091457649
+
+Tweet:534183095444840448, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=4&z=7&date=201411171215, filename:img/2014/11/17/x54y4_1215.png, 
+readed png, RainTime:0.088564125, MeCabTime:0.000345994, UsedTime:0.089026545
+
+Tweet:534183096795422721, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087106537, MeCabTime:0.000323086, UsedTime:0.087542208
+
+Tweet:534183096455675904, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082591928, MeCabTime:0.000369391, UsedTime:0.083116086
+
+Tweet:534183097613697024, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088878412, MeCabTime:0.000446286, UsedTime:0.08945977
+
+Tweet:534183097890136064, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088206049, MeCabTime:0.000327626, UsedTime:0.088668189
+
+Tweet:534183102877159424, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087604436, MeCabTime:0.000335867, UsedTime:0.088056868
+
+Tweet:534183103489507328, 2014-11-29T02:46:50+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087738183, MeCabTime:0.000350603, UsedTime:0.088200881
+
+Tweet:534183104148037632, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082173997, MeCabTime:0.000370927, UsedTime:0.082677204
+
+Tweet:534183104970125312, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.09436186, MeCabTime:0.000383289, UsedTime:0.094881269
+
+Tweet:534183106136141824, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087635236, MeCabTime:0.000338451, UsedTime:0.088096468
+
+Tweet:534183106509811713, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=4&z=7&date=201411171215, filename:img/2014/11/17/x54y4_1215.png, 
+readed png, RainTime:0.087465802, MeCabTime:0.000372673, UsedTime:0.087956157
+
+Tweet:534183108988243968, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087806976, MeCabTime:0.000321549, UsedTime:0.088239922
+
+Tweet:534183109538107392, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082418511, MeCabTime:0.000437695, UsedTime:0.082966347
+
+Tweet:534183110213005313, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087208367, MeCabTime:0.000332585, UsedTime:0.087684754
+
+Tweet:534183109089296386, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090722221, MeCabTime:0.000379168, UsedTime:0.091226196
+
+Tweet:534183114822545410, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088774836, MeCabTime:0.000363384, UsedTime:0.089254367
+
+Tweet:534183117116817408, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087279465, MeCabTime:0.000299898, UsedTime:0.087691389
+
+Tweet:534183118136041472, 2014-11-29T02:46:51+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082709959, MeCabTime:0.000420235, UsedTime:0.083240404
+
+Tweet:534183118396469248, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088226024, MeCabTime:0.000327066, UsedTime:0.088686906
+
+Tweet:534183119197188097, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088297401, MeCabTime:0.0003124, UsedTime:0.08873363
+
+Tweet:534183120841355265, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087405179, MeCabTime:0.000312959, UsedTime:0.087836589
+
+Tweet:534183122472935425, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087956087, MeCabTime:0.000317708, UsedTime:0.088387776
+
+Tweet:534183125623275520, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082323737, MeCabTime:0.00041821, UsedTime:0.08285495
+
+Tweet:534183125488652288, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087518252, MeCabTime:0.000353885, UsedTime:0.088004277
+
+Tweet:534183129225777152, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.090789059, MeCabTime:0.000601892, UsedTime:0.091515548
+
+Tweet:534183130685382656, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=4&z=7&date=201411171215, filename:img/2014/11/17/x54y4_1215.png, 
+readed png, RainTime:0.088630754, MeCabTime:0.000338311, UsedTime:0.089083535
+
+Tweet:534183130958004224, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087354055, MeCabTime:0.000347111, UsedTime:0.087811656
+
+Tweet:534183131121975296, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082578937, MeCabTime:0.000497689, UsedTime:0.083187604
+
+Tweet:534183131071250433, 2014-11-29T02:46:52+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.08832918, MeCabTime:0.0003564, UsedTime:0.088819535
+
+Tweet:534183132233072641, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087923261, MeCabTime:0.000318546, UsedTime:0.088365566
+
+Tweet:534183134275715072, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087608906, MeCabTime:0.000315334, UsedTime:0.088042411
+
+Tweet:534183136939081728, 2014-11-29T02:46:53+09:00, not japanese, Tweet:534183137987686400, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087720373, MeCabTime:0.000328324, UsedTime:0.088135579
+
+Tweet:534183144472051712, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082210035, MeCabTime:0.000404381, UsedTime:0.082735731
+
+Tweet:534183144765661184, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087267382, MeCabTime:0.000336006, UsedTime:0.087737833
+
+Tweet:534183144925044737, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.090589243, MeCabTime:0.000306464, UsedTime:0.091019605
+
+Tweet:534183145604521984, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088446163, MeCabTime:0.000323156, UsedTime:0.088886513
+
+Tweet:534183147361927168, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087045217, MeCabTime:0.000500622, UsedTime:0.087658633
+
+Tweet:534183147995267072, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082537032, MeCabTime:0.00037386, UsedTime:0.083019775
+
+Tweet:534183150717378560, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088393992, MeCabTime:0.000428825, UsedTime:0.088955795
+
+Tweet:534183152810328065, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.087936672, MeCabTime:0.00035186, UsedTime:0.08841264
+
+Tweet:534183152080928768, 2014-11-29T02:46:53+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087482982, MeCabTime:0.000422819, UsedTime:0.088022436
+
+Tweet:534183154047651840, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087858728, MeCabTime:0.000423448, UsedTime:0.088392805
+
+Tweet:534183153930207232, 2014-11-29T02:46:54+09:00, not japanese, Tweet:534183155930910720, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.082105692, MeCabTime:0.000363384, UsedTime:0.082551698
+
+Tweet:534183159944867841, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087941001, MeCabTime:0.000363035, UsedTime:0.088434151
+
+Tweet:534183160574390272, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090580094, MeCabTime:0.000402496, UsedTime:0.091103205
+
+Tweet:534183162377535489, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088190265, MeCabTime:0.000317708, UsedTime:0.088623281
+
+Tweet:534183163841363970, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082087743, MeCabTime:0.000388108, UsedTime:0.082610296
+
+Tweet:534183164713787392, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087268779, MeCabTime:0.000367155, UsedTime:0.087772334
+
+Tweet:534183165795905537, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.090039522, MeCabTime:0.000342781, UsedTime:0.09050704
+
+Tweet:534183166102093824, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.088549319, MeCabTime:0.000317848, UsedTime:0.088983173
+
+Tweet:534183165774925824, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087156614, MeCabTime:0.000307861, UsedTime:0.087600875
+
+Tweet:534183166823501824, 2014-11-29T02:46:54+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082537871, MeCabTime:0.000380984, UsedTime:0.083029902
+
+Tweet:534183168643829760, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088280639, MeCabTime:0.000358565, UsedTime:0.088775395
+
+Tweet:534183168912289793, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088392386, MeCabTime:0.00037386, UsedTime:0.088891122
+
+Tweet:534183170116431873, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087630907, MeCabTime:0.000377353, UsedTime:0.088125732
+
+Tweet:534183170250256386, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087707522, MeCabTime:0.000322457, UsedTime:0.088141237
+
+Tweet:534183172917850112, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082106251, MeCabTime:0.000434343, UsedTime:0.082650734
+
+Tweet:534183173274361856, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088346849, MeCabTime:0.000390343, UsedTime:0.088870309
+
+Tweet:534183174603956225, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.091026659, MeCabTime:0.000301645, UsedTime:0.091452202
+
+Tweet:534183177883877377, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088570691, MeCabTime:0.000350324, UsedTime:0.089038627
+
+Tweet:534183180870225921, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087403852, MeCabTime:0.00033468, UsedTime:0.087850418
+
+Tweet:534183181835333632, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.082580055, MeCabTime:0.00036548, UsedTime:0.083056163
+
+Tweet:534183182883504128, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088370944, MeCabTime:0.000335447, UsedTime:0.08883895
+
+Tweet:534183183919497216, 2014-11-29T02:46:55+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.08847424, MeCabTime:0.000314915, UsedTime:0.088915637
+
+Tweet:534183183437156352, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087617916, MeCabTime:0.000342362, UsedTime:0.088078099
+
+Tweet:534183185458819072, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087878494, MeCabTime:0.000333003, UsedTime:0.088324081
+
+Tweet:534183186339618817, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082066022, MeCabTime:0.000355282, UsedTime:0.082542549
+
+Tweet:534183190328389633, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087290011, MeCabTime:0.000374419, UsedTime:0.087799503
+
+Tweet:534183193612546048, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090686951, MeCabTime:0.000385035, UsedTime:0.091196932
+
+Tweet:534183198452764672, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089110075, MeCabTime:0.000338172, UsedTime:0.089564881
+
+Tweet:534183199484944384, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087241192, MeCabTime:0.000404381, UsedTime:0.087758296
+
+Tweet:534183199443009536, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.083351521, MeCabTime:0.000476038, UsedTime:0.08395048
+
+Tweet:534183203180126208, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088483877, MeCabTime:0.000385734, UsedTime:0.089010831
+
+Tweet:534183203947307011, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088845167, MeCabTime:0.000340267, UsedTime:0.08931904
+
+Tweet:534183205058785280, 2014-11-29T02:46:56+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087599687, MeCabTime:0.00031254, UsedTime:0.088030329
+
+Tweet:534183206749081601, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087851046, MeCabTime:0.000318057, UsedTime:0.088280988
+
+Tweet:534183207055282176, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082648918, MeCabTime:0.000355632, UsedTime:0.083116156
+
+Tweet:534183208812691457, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087387509, MeCabTime:0.000346902, UsedTime:0.087868786
+
+Tweet:534183214537900033, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090844723, MeCabTime:0.000306184, UsedTime:0.091276901
+
+Tweet:534183215662399490, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088653941, MeCabTime:0.000437486, UsedTime:0.08920876
+
+Tweet:534183216379224064, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087613376, MeCabTime:0.000319035, UsedTime:0.088042131
+
+Tweet:534183217608130560, 2014-11-29T02:46:57+09:00, not japanese, Tweet:534183217881178112, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082672874, MeCabTime:0.000424914, UsedTime:0.083183343
+
+Tweet:534183217578799104, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=4&z=7&date=201411171215, filename:img/2014/11/17/x54y4_1215.png, 
+readed png, RainTime:0.088638367, MeCabTime:0.000392718, UsedTime:0.089162666
+
+Tweet:534183218988064768, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088488068, MeCabTime:0.000321829, UsedTime:0.08893638
+
+Tweet:534183219998904320, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087632582, MeCabTime:0.000326718, UsedTime:0.088076704
+
+Tweet:534183220124721152, 2014-11-29T02:46:57+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088095281, MeCabTime:0.000311701, UsedTime:0.088519985
+
+Tweet:534183221596917761, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082168131, MeCabTime:0.000417022, UsedTime:0.082695152
+
+Tweet:534183221655654401, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087471948, MeCabTime:0.000363105, UsedTime:0.087969427
+
+Tweet:534183224029622272, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.092293161, MeCabTime:0.000361429, UsedTime:0.092780444
+
+Tweet:534183225963192320, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088807312, MeCabTime:0.000374768, UsedTime:0.089308144
+
+Tweet:534183226416173056, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087403782, MeCabTime:0.000333143, UsedTime:0.087850418
+
+Tweet:534183227443793920, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.082869127, MeCabTime:0.000371835, UsedTime:0.083349845
+
+Tweet:534183227431604224, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088953142, MeCabTime:0.000358356, UsedTime:0.089445033
+
+Tweet:534183227645104128, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088586614, MeCabTime:0.000322806, UsedTime:0.089043376
+
+Tweet:534183228173598720, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087729872, MeCabTime:0.000324762, UsedTime:0.088173084
+
+Tweet:534183229524168704, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088067763, MeCabTime:0.000342781, UsedTime:0.088522919
+
+Tweet:534183232699650048, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08231333, MeCabTime:0.000425333, UsedTime:0.082849223
+
+Tweet:534183236679639040, 2014-11-29T02:46:58+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087522861, MeCabTime:0.000340685, UsedTime:0.087995407
+
+Tweet:534183237367500800, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090700221, MeCabTime:0.000429454, UsedTime:0.091254551
+
+Tweet:534183239338844160, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088677897, MeCabTime:0.000321829, UsedTime:0.089162944
+
+Tweet:534183239556939776, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.094574596, MeCabTime:0.000339848, UsedTime:0.095027448
+
+Tweet:534183241599565824, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.089209529, MeCabTime:0.000375187, UsedTime:0.089695135
+
+Tweet:534183242463596544, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=5&z=7&date=201411171215, filename:img/2014/11/17/x55y5_1215.png, 
+readed png, RainTime:0.087735808, MeCabTime:0.000462349, UsedTime:0.088338747
+
+Tweet:534183243243732992, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.090761751, MeCabTime:0.000337473, UsedTime:0.09121984
+
+Tweet:534183242740400128, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088489884, MeCabTime:0.000350254, UsedTime:0.088954888
+
+Tweet:534183243697111040, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082293985, MeCabTime:0.000504604, UsedTime:0.082908658
+
+Tweet:534183245852594176, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087643059, MeCabTime:0.000358775, UsedTime:0.088137675
+
+Tweet:534183245869363200, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090197154, MeCabTime:0.000359194, UsedTime:0.090684437
+
+Tweet:534183246230085632, 2014-11-29T02:46:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088849077, MeCabTime:0.000300108, UsedTime:0.089268964
+
+Tweet:534183250973831169, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087380036, MeCabTime:0.000324273, UsedTime:0.087818709
+
+Tweet:534183252668342273, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=5&z=7&date=201411171215, filename:img/2014/11/17/x55y5_1215.png, 
+readed png, RainTime:0.082800823, MeCabTime:0.000443353, UsedTime:0.083352988
+
+Tweet:534183253347794944, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088613503, MeCabTime:0.000340197, UsedTime:0.089084163
+
+Tweet:534183255965466624, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088450983, MeCabTime:0.000398444, UsedTime:0.088986665
+
+Tweet:534183257466609664, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087679655, MeCabTime:0.000348369, UsedTime:0.088154227
+
+Tweet:534183261207920641, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.095438813, MeCabTime:0.000346902, UsedTime:0.095895575
+
+Tweet:534183261539270657, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08247187, MeCabTime:0.0003608, UsedTime:0.082944067
+
+Tweet:534183265481920512, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089190672, MeCabTime:0.000329162, UsedTime:0.089654278
+
+Tweet:534183267805577217, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.089546582, MeCabTime:0.000432737, UsedTime:0.090106152
+
+Tweet:534183268212408320, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087688316, MeCabTime:0.000318057, UsedTime:0.088123147
+
+Tweet:534183269474893824, 2014-11-29T02:47:00+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088061338, MeCabTime:0.000318196, UsedTime:0.088505388
+
+Tweet:534183271014207488, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08222128, MeCabTime:0.000393207, UsedTime:0.082724556
+
+Tweet:534183271815323648, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.087559318, MeCabTime:0.000363803, UsedTime:0.088057706
+
+Tweet:534183272863891456, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.091767536, MeCabTime:0.000310584, UsedTime:0.092202647
+
+Tweet:534183274608742401, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088869262, MeCabTime:0.000303321, UsedTime:0.089289776
+
+Tweet:534183279767736321, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087623922, MeCabTime:0.000335238, UsedTime:0.088085852
+
+Tweet:534183280250081280, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.082886238, MeCabTime:0.00036953, UsedTime:0.083367514
+
+Tweet:534183281906814978, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088656735, MeCabTime:0.000350534, UsedTime:0.089141224
+
+Tweet:534183282263719936, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088688932, MeCabTime:0.000388108, UsedTime:0.089201777
+
+Tweet:534183282918055936, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08784902, MeCabTime:0.000408013, UsedTime:0.088373459
+
+Tweet:534183284969074688, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088417808, MeCabTime:0.000399492, UsedTime:0.088928278
+
+Tweet:534183285539094528, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082808994, MeCabTime:0.000357867, UsedTime:0.083276093
+
+Tweet:534183285924962304, 2014-11-29T02:47:01+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087496182, MeCabTime:0.000350952, UsedTime:0.088027744
+
+Tweet:534183286805774337, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090859878, MeCabTime:0.000305067, UsedTime:0.091290241
+
+Tweet:534183287179059201, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088766037, MeCabTime:0.00033021, UsedTime:0.089215675
+
+Tweet:534183287292313600, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087435979, MeCabTime:0.000339917, UsedTime:0.08788883
+
+Tweet:534183287460495360, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082838746, MeCabTime:0.000508864, UsedTime:0.083468226
+
+Tweet:534183289964072962, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088993719, MeCabTime:0.000320641, UsedTime:0.089447757
+
+Tweet:534183291163643904, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088558818, MeCabTime:0.000332864, UsedTime:0.089014462
+
+Tweet:534183291717312512, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087848043, MeCabTime:0.000320362, UsedTime:0.08829384
+
+Tweet:534183292572925954, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087996735, MeCabTime:0.000300318, UsedTime:0.088411173
+
+Tweet:534183293059493889, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082279248, MeCabTime:0.000354305, UsedTime:0.08274488
+
+Tweet:534183299925557248, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087424595, MeCabTime:0.000524787, UsedTime:0.088085852
+
+Tweet:534183300491796480, 2014-11-29T02:47:02+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090978189, MeCabTime:0.000327067, UsedTime:0.091432088
+
+Tweet:534183303239041024, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088651078, MeCabTime:0.000385314, UsedTime:0.089154913
+
+Tweet:534183303641714690, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087432696, MeCabTime:0.000315892, UsedTime:0.087859636
+
+Tweet:534183304954535936, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08270549, MeCabTime:0.000428407, UsedTime:0.083243966
+
+Tweet:534183305071976448, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089119922, MeCabTime:0.000402635, UsedTime:0.089656513
+
+Tweet:534183306036654080, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088622583, MeCabTime:0.00038322, UsedTime:0.089130958
+
+Tweet:534183308444176385, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087922493, MeCabTime:0.000492381, UsedTime:0.088532068
+
+Tweet:534183310683947010, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088587942, MeCabTime:0.000304508, UsedTime:0.089005523
+
+Tweet:534183312261005312, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.0822078, MeCabTime:0.000382451, UsedTime:0.08270081
+
+Tweet:534183314605608962, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087689154, MeCabTime:0.000337054, UsedTime:0.088158767
+
+Tweet:534183314735644672, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090778234, MeCabTime:0.000306114, UsedTime:0.091205522
+
+Tweet:534183318129242112, 2014-11-29T02:47:03+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088445256, MeCabTime:0.000377282, UsedTime:0.088948112
+
+Tweet:534183319089315840, 2014-11-29T02:47:04+09:00, not japanese, Tweet:534183320850931712, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082789858, MeCabTime:0.000391321, UsedTime:0.083266804
+
+Tweet:534183321266176000, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.087481446, MeCabTime:0.000349975, UsedTime:0.087969707
+
+Tweet:534183323627552768, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090431751, MeCabTime:0.000318476, UsedTime:0.090878107
+
+Tweet:534183324609048577, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089186411, MeCabTime:0.000341454, UsedTime:0.089647154
+
+Tweet:534183327574413313, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.095135561, MeCabTime:0.000302553, UsedTime:0.095551537
+
+Tweet:534183327545438208, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082407895, MeCabTime:0.000416254, UsedTime:0.082935127
+
+Tweet:534183329038221312, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.0888833, MeCabTime:0.000361639, UsedTime:0.089379453
+
+Tweet:534183329784819713, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088651078, MeCabTime:0.000345784, UsedTime:0.08912076
+
+Tweet:534183330674376704, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087896652, MeCabTime:0.000398305, UsedTime:0.088421859
+
+Tweet:534183331491880960, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.088170988, MeCabTime:0.000342362, UsedTime:0.088626494
+
+Tweet:534183338890641408, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.082503438, MeCabTime:0.000406826, UsedTime:0.08302194
+
+Tweet:534183340572549120, 2014-11-29T02:47:04+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088726995, MeCabTime:0.000329861, UsedTime:0.089193326
+
+Tweet:534183340790657024, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090999281, MeCabTime:0.000322876, UsedTime:0.091447523
+
+Tweet:534183340622872576, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08925283, MeCabTime:0.000466261, UsedTime:0.089838659
+
+Tweet:534183341155549184, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087554639, MeCabTime:0.000429943, UsedTime:0.08809577
+
+Tweet:534183341776318465, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082865496, MeCabTime:0.000378191, UsedTime:0.083352848
+
+Tweet:534183344817598464, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089053922, MeCabTime:0.000412063, UsedTime:0.089601687
+
+Tweet:534183345639288832, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088858018, MeCabTime:0.000342851, UsedTime:0.089326024
+
+Tweet:534183345714778112, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088329319, MeCabTime:0.000498527, UsedTime:0.088944202
+
+Tweet:534183347002421248, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088224907, MeCabTime:0.000323015, UsedTime:0.088657293
+
+Tweet:534183349439307776, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082555331, MeCabTime:0.000369181, UsedTime:0.083034162
+
+Tweet:534183349879705600, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.094675308, MeCabTime:0.000414159, UsedTime:0.095224679
+
+Tweet:534183351435796480, 2014-11-29T02:47:05+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088083408, MeCabTime:0.000331816, UsedTime:0.088539401
+
+Tweet:534183351784329217, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088850335, MeCabTime:0.000336565, UsedTime:0.089303954
+
+Tweet:534183352614412288, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=54&y=4&z=7&date=201411171215, filename:img/2014/11/17/x54y4_1215.png, 
+readed png, RainTime:0.088301173, MeCabTime:0.000325949, UsedTime:0.088739776
+
+Tweet:534183356779356160, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082436111, MeCabTime:0.000392857, UsedTime:0.08293848
+
+Tweet:534183357006233600, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087601293, MeCabTime:0.000418699, UsedTime:0.088155135
+
+Tweet:534183357983113218, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=7&z=7&date=201411171215, filename:img/2014/11/17/x57y7_1215.png, 
+readed png, RainTime:0.095111466, MeCabTime:0.000347251, UsedTime:0.095593162
+
+Tweet:534183357899218945, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088057077, MeCabTime:0.000317848, UsedTime:0.088493656
+
+Tweet:534183358142496768, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087597522, MeCabTime:0.000351372, UsedTime:0.088061198
+
+Tweet:534183359530823680, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.083005248, MeCabTime:0.000380216, UsedTime:0.083496651
+
+Tweet:534183360612954112, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088977376, MeCabTime:0.000353956, UsedTime:0.089465218
+
+Tweet:534183362718482432, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088989389, MeCabTime:0.000351442, UsedTime:0.089468151
+
+Tweet:534183362877878272, 2014-11-29T02:47:06+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087922145, MeCabTime:0.000341175, UsedTime:0.088381281
+
+Tweet:534183362919809024, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088400767, MeCabTime:0.000379029, UsedTime:0.088891471
+
+Tweet:534183362970136576, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082585153, MeCabTime:0.000433645, UsedTime:0.083153102
+
+Tweet:534183364467519488, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087587535, MeCabTime:0.000414159, UsedTime:0.088137465
+
+Tweet:534183366598217728, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.090923993, MeCabTime:0.00033873, UsedTime:0.091386342
+
+Tweet:534183366992486401, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08889657, MeCabTime:0.00051487, UsedTime:0.089531567
+
+Tweet:534183367202185216, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087585719, MeCabTime:0.000347949, UsedTime:0.088046391
+
+Tweet:534183367319621632, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=57&y=8&z=7&date=201411171215, filename:img/2014/11/17/x57y8_1215.png, 
+readed png, RainTime:0.083346842, MeCabTime:0.000377004, UsedTime:0.083833496
+
+Tweet:534183366078500864, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089168462, MeCabTime:0.000421282, UsedTime:0.089720278
+
+Tweet:534183371220332544, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088603516, MeCabTime:0.000331537, UsedTime:0.089106792
+
+Tweet:534183375691452417, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088087598, MeCabTime:0.00031666, UsedTime:0.088521662
+
+Tweet:534183377025249280, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.083214702, MeCabTime:0.000392438, UsedTime:0.083720283
+
+Tweet:534183377968984064, 2014-11-29T02:47:07+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=5&z=7&date=201411171215, filename:img/2014/11/17/x55y5_1215.png, 
+readed png, RainTime:0.088907116, MeCabTime:0.00035633, UsedTime:0.08940285
+
+Tweet:534183378879135745, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088266322, MeCabTime:0.000322038, UsedTime:0.088715471
+
+Tweet:534183379541819392, 2014-11-29T02:47:08+09:00, not japanese, Tweet:534183380431036417, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.087891694, MeCabTime:0.00038273, UsedTime:0.088366754
+
+Tweet:534183381081145344, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088258081, MeCabTime:0.000363943, UsedTime:0.088735446
+
+Tweet:534183382402347008, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082583756, MeCabTime:0.000426102, UsedTime:0.083119509
+
+Tweet:534183383589326848, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087564557, MeCabTime:0.000353746, UsedTime:0.08806483
+
+Tweet:534183385854275584, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.091046983, MeCabTime:0.000315962, UsedTime:0.091489218
+
+Tweet:534183387968585728, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089111053, MeCabTime:0.000317498, UsedTime:0.089548119
+
+Tweet:534183391650787329, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087637191, MeCabTime:0.000331956, UsedTime:0.08808264
+
+Tweet:534183391558508545, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=7&z=7&date=201411171215, filename:img/2014/11/17/x56y7_1215.png, 
+readed png, RainTime:0.08327707, MeCabTime:0.000545181, UsedTime:0.083931692
+
+Tweet:534183394146398208, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.089594494, MeCabTime:0.000345924, UsedTime:0.090071789
+
+Tweet:534183396281303040, 2014-11-29T02:47:08+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.089114195, MeCabTime:0.000356609, UsedTime:0.089593027
+
+Tweet:534183396558139392, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088168056, MeCabTime:0.000486305, UsedTime:0.088767922
+
+Tweet:534183397514412033, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.082878487, MeCabTime:0.000405079, UsedTime:0.083393845
+
+Tweet:534183401289306113, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088669725, MeCabTime:0.000344597, UsedTime:0.089148557
+
+Tweet:534183402766073856, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088724132, MeCabTime:0.000428826, UsedTime:0.089279231
+
+Tweet:534183405735256064, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088433592, MeCabTime:0.000326508, UsedTime:0.088875897
+
+Tweet:534183406305693696, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.083322258, MeCabTime:0.000391531, UsedTime:0.083825534
+
+Tweet:534183407656652800, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088896709, MeCabTime:0.000432178, UsedTime:0.089466126
+
+Tweet:534183408272818177, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088556792, MeCabTime:0.000327835, UsedTime:0.089010481
+
+Tweet:534183410911043585, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088075655, MeCabTime:0.000339009, UsedTime:0.088532627
+
+Tweet:534183411615690752, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.083194657, MeCabTime:0.000394324, UsedTime:0.083700937
+
+Tweet:534183411817017346, 2014-11-29T02:47:09+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.08902005, MeCabTime:0.000425753, UsedTime:0.089582691
+
+Tweet:534183412735553536, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088523757, MeCabTime:0.000367086, UsedTime:0.089016488
+
+Tweet:534183413272440832, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.087971592, MeCabTime:0.000336775, UsedTime:0.08842556
+
+Tweet:534183414178390017, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.083279515, MeCabTime:0.000454806, UsedTime:0.083845299
+
+Tweet:534183418217521153, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088952443, MeCabTime:0.000339918, UsedTime:0.089427434
+
+Tweet:534183418553069568, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088166869, MeCabTime:0.000508794, UsedTime:0.088801167
+
+Tweet:534183418838282240, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088024881, MeCabTime:0.000302413, UsedTime:0.088443719
+
+Tweet:534183420369182722, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.083350474, MeCabTime:0.000349347, UsedTime:0.083859058
+
+Tweet:534183421543587840, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=55&y=6&z=7&date=201411171215, filename:img/2014/11/17/x55y6_1215.png, 
+readed png, RainTime:0.088965224, MeCabTime:0.000380775, UsedTime:0.08948631
+
+Tweet:534183422063685632, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088239713, MeCabTime:0.000318895, UsedTime:0.088683553
+
+Tweet:534183425650204672, 2014-11-29T02:47:10+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411171215, filename:img/2014/11/17/x56y6_1215.png, 
+readed png, RainTime:0.088268697, MeCabTime:0.000396629, UsedTime:0.088791598
+

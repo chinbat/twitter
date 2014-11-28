@@ -1,0 +1,6 @@
+Tweet:530627852585021440, 2014-11-29T01:37:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411071645, filename:img/2014/11/07/x56y6_1645.png, 
+readed png, RainTime:0.347217617, MeCabTime:0.000895435, UsedTime:0.348621497
+Tweet:530627859266539521, 2014-11-29T01:37:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411071645, filename:img/2014/11/07/x56y6_1645.png, 
+readed png, RainTime:0.089139129, MeCabTime:0.000350743, UsedTime:0.089629974
+Tweet:530627859547557889, 2014-11-29T01:37:59+09:00, normal, url:http://weather.map.c.yimg.jp/weather?x=56&y=6&z=7&date=201411071645, filename:img/2014/11/07/x56y6_1645.png, 
+readed png, RainTime:0.087348817, MeCabTime:0.000304299, UsedTime:0.087762138
