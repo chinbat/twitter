@@ -3,9 +3,9 @@ require 'set'
 
 
 
-json = File.read('twout25.json')
+json = File.read('twout7.json')
 data_array = JSON.parse(json)["tweets"]
-n=500
+n=1000
 new = File.open("new_#{n}.json",'w')
 
 tweets = []

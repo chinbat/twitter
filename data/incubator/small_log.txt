@@ -1,3 +1,0 @@
-Converted /root/twitter/data/incubator/small.json to /root/twitter/data/incubator/small_edited.json 2014-11-29T01:37:59+09:00
-geo:0, plc:0, ctd:0, country:0, lang:0, rain_cnt0:3, rain_cnt15:0, cnt:3, cnt_all:3, png_cnt: 1, no_png_cnt:0
-Whole spent time: 0.526628212

@@ -15,6 +15,8 @@ def create_url(created_at, coordinates)
   min -= min % 5
   if min == 0
     min = "00"
+  elsif min == 5
+    min = "05"
   end
   lat = coordinates[/(?<=\[).+(?=\,)/].to_f
   long = coordinates[/(?<=\s).+(?=\])/].to_f
@@ -32,15 +34,22 @@ def create_url(created_at, coordinates)
 end
 
 def def_rain
-  if !File.exist?($filename)
+  if !File.exist?("#{$base_dir}#{$filename}")
     # download pnn
     FileUtils::mkdir_p "#{$base_dir}img" unless File.exist?("#{$base_dir}img")
     FileUtils::mkdir_p "#{$base_dir}img/#{$year}" unless File.exist?("#{$base_dir}img/#{$year}")
     FileUtils::mkdir_p "#{$base_dir}img/#{$year}/#{$month}" unless File.exist?("#{$base_dir}img/#{$year}/#{$month}")
     FileUtils::mkdir_p "#{$base_dir}img/#{$year}/#{$month}/#{$day}" unless File.exist?("#{$base_dir}img/#{$year}/#{$month}/#{$day}")
+    $next_yahoo = Time.now
+    if ($png_cnt + $no_png_cnt) != 0 and ($png_cnt + $no_png_cnt) % 40000 == 0 and ($next_yahoo-$yahoo_start) < 24*60*60 
+      $crawler_log.puts "Reached #{$png_cnt + $no_png_cnt} and sleep for #{24*60*60-$next_yahoo+$yahoo_start+60*60}sec"
+      $crawler_log.close
+      $crawler_log = File.open($crawler_log_file,'a')
+      sleep(24*60*60-$next_yahoo+$yahoo_start+60*60)
+    end
     response = Net::HTTP.get_response($uri)
     if response.code == "200"
-      $png_log.puts "Downloaded #{$filename}"
+      $png_log.puts "Downloaded #{$base_dir}#{$filename}"
       $png_cnt += 1
       img = File.open("#{$base_dir}#{$filename}",'wb')
       img << response.body
@@ -68,8 +77,8 @@ def def_rain
       return
     end
   end
-  if File.exist?($filename)
-    image = ChunkyPNG::Image.from_file($filename)
+  if File.exist?("#{$base_dir}#{$filename}")
+    image = ChunkyPNG::Image.from_file("#{$base_dir}#{$filename}")
     color = ChunkyPNG::Color.to_hex(image[$xpos,255-$ypos], include_alph = false)
     case color
     when "#000000"
@@ -118,7 +127,7 @@ def mecaber(old_text)
   new_text = ""
   c = MeCab::Tagger.new
   r = /@[a-zA-Z0-9_]*/
-  japanese = /(?:\p{Hiragana}|\p{Katakana}|[一-龠々]|[a-zA-Z0-9]|[.,。、])+/
+  japanese = /(?:\p{Hiragana}|\p{Katakana}|[一-龠々]|[a-zA-Z0-9]|[.,。、ー])+/
   while r.match(text)!= nil do
     text.slice! r.match(text).to_s
   end
@@ -135,31 +144,35 @@ def mecaber(old_text)
 end
 
 begin
-  $base_url = "http://weather.map.c.yimg.jp/weather?"
-  $base_dir = "/root/twitter/data/incubator/"
-  stdout_file = "#{$base_dir}/stdout.log"
-  stderr_file = "#{$base_dir}/stderr.log"
-  #$stdout.reopen(stdout_file,'a')
-  #$stderr.reopen(stderr_file,'a')
+$yahoo_start = Time.now
+$crawler_log_file = "/home/green/wimgs/log.txt"
+$crawler_log = File.open($crawler_log_file,'a')
+$base_url = "http://weather.map.c.yimg.jp/weather?"
+$base_dir = "/home/green/wimgs/"
+error_file = "#{$base_dir}error_log.txt"
+error_log = File.open(error_file,'a')
+for i in 0..60
+  json_target = "twout#{i}"
+  $local_base_dir = "/home/green/wimgs/#{json_target}/"
+  FileUtils::mkdir_p "#{$local_base_dir}" unless File.exist?("#{$local_base_dir}")
+  stdout_file = "#{$local_base_dir}stdout.log"
+  stderr_file = "#{$local_base_dir}stderr.log"
+  $stdout.reopen(stdout_file,'w')
+  $stderr.reopen(stderr_file,'w')
 
   start = Time.now
-  json_target = "500"
-  json_file = "#{$base_dir}#{json_target}.json"
-  png_log_file = "#{$base_dir}#{json_target}_png_log.txt"
-  out_file = "#{$base_dir}#{json_target}_edited.json"
-  log_file = "#{$base_dir}#{json_target}_log.txt"
-  tweet_log_file = "#{$base_dir}#{json_target}_tweet_log.txt"
-  error_file = "#{$base_dir}#{json_target}_error_log.txt"
-
+  json_file = "#{$base_dir}twouts/#{json_target}.json"
+  png_log_file = "#{$local_base_dir}#{json_target}_png_log.txt"
+  out_file = "#{$local_base_dir}#{json_target}_edited.json"
+  log_file = "#{$local_base_dir}#{json_target}_log.txt"
+  tweet_log_file = "#{$local_base_dir}#{json_target}_tweet_log.txt"
+  puts json_file
   json = File.read(json_file)
   data_array = JSON.parse(json)
-
   $png_log = File.open(png_log_file,'w')
   rain = File.open(out_file,'w')
   $log = File.open(log_file,'w')
   $tweet_log = File.open(tweet_log_file,'w')
-  error_log = File.open(error_file,'w')
-
   cnt_all = 0 # all
   geo_cnt = 0 # geo_enabled == false
   plc_cnt = 0 # place == nil
@@ -221,6 +234,11 @@ begin
   $log.puts "geo:#{geo_cnt}, plc:#{plc_cnt}, ctd:#{ctd_cnt}, country:#{c_cnt}, lang:#{l_cnt}, rain_cnt0:#{$rain_cnt0}, rain_cnt15:#{$rain_cnt15}, cnt:#{cnt}, cnt_all:#{cnt_all}, png_cnt: #{$png_cnt}, no_png_cnt:#{$no_png_cnt}"
   finish = Time.now
   $log.puts "Whole spent time: #{finish-start}" 
+  $crawler_log.puts "Processed #{json_target} at #{DateTime.now}. Spent time: #{finish-start}"
+  $crawler_log.puts "geo:#{geo_cnt}, plc:#{plc_cnt}, ctd:#{ctd_cnt}, country:#{c_cnt}, lang:#{l_cnt}, rain_cnt0:#{$rain_cnt0}, rain_cnt15:#{$rain_cnt15}, cnt:#{cnt}, cnt_all:#{cnt_all}, png_cnt: #{$png_cnt}, no_png_cnt:#{$no_png_cnt}"
+  $crawler_log.close
+  $crawler_log = File.open($crawler_log_file,'a')
+end
 rescue Exception => e
   error_log.puts "#{e.message}"
   error_log.puts DateTime.now
