@@ -9,13 +9,13 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ACCSEC 
 end
 
-myfile = File.new("result.txt","w")
-client.user("chinbaa_chi")
+#myfile = File.new("result.txt","w")
+puts client.user("chinbaa_chi")
 follower_ids = client.follower_ids.to_a
 count = 0
-follower_ids.each do |follower|
-  count += 1
-  myfile.puts follower
-end
+#follower_ids.each do |follower|
+#  count += 1
+  #myfile.puts follower
+#end
 
-puts count
+#puts count

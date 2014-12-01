@@ -1,6 +1,8 @@
 require "rubygems"
 require "twitter"
-require '../yauth'
+require "oauth"
+require "../yauth"
+require '../b2auth'
 
 begin
   stdout_file = "/home/green/user_tweets/stdout.log"
@@ -57,8 +59,29 @@ begin
   end
 
   user_cnt = 0
+  consumer_key2 = OAuth::Consumer.new(CONKEY2, CONSEC2)
+  access_token2 = OAuth::Token.new(ACCTOK2, ACCSEC2)
+
   ids.each_line do |line|
     id = line.to_i
+    address = URI("https://api.twitter.com/1.1/users/show.json?user_id=#{id}")
+    http = Net::HTTP.new address.host, address.port
+    http.use_ssl = true
+    http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+    request = Net::HTTP::Get.new address.request_uri
+    request.oauth! http, consumer_key2, access_token2
+    http.start
+    response = http.request(request)
+    if response.code != "200"
+      log.puts "#{id} user's response was #{response.code}"
+      log.close
+      log = File.open(log_file,'a')
+      # done list-d bichigdeegui tul asuudal garj magad
+      # aldaa zaagaad garahad hamgiin suul done list-d bichigdeh id-n response code n !=200
+      # baival ene id-n umnuh hurtelhiig ids-s ustgaad dahij retry hiih uydee ene id-s ehelne
+      # gehdee tiim azgui yum baimaargui um
+      next
+    end 
     if !done_list.include? id and client.user?(id)
       user = client.user(id)
       if user.statuses_count >= 3000 and !user.protected?

@@ -9,7 +9,7 @@ access_token = OAuth::Token.new(
   ACCTOK, ACCSEC)
 
 baseurl = "https://api.twitter.com"
-path = "/1.1/friends/ids.json?cursor=-1&chinbaa_chi=twitterapi"
+path = "1.1/users/show.json?user_id=536590678"
 address = URI("#{baseurl}#{path}")
 
 # Set up Net::HTTP to use SSL, which is required by Twitter.

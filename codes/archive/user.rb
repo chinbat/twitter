@@ -9,4 +9,4 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ACCSEC 
 end
 
-puts client.user?("chinbaa_chi")
+puts client.user?(536590678)

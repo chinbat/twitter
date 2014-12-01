@@ -22,8 +22,9 @@ address = URI("#{baseurl}#{path}")
 
 # Set up Net::HTTP to use SSL, which is required by Twitter.
 http = Net::HTTP.new address.host, address.port
-http.use_ssl = true
-http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+puts http
+#http.use_ssl = true
+#http.verify_mode = OpenSSL::SSL::VERIFY_PEER
 
 
 consumer_key = OAuth::Consumer.new(
