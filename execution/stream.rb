@@ -89,5 +89,6 @@ rescue Exception => e
   #rescue process here
   rest_client.update("@chinbaa_chi Ruby error has occured during the tweet collecting process at #{DateTime.now}. Do something Chinbaa!")
   puts "Ruby error has occured at #{DateTime.now}. Error message is: #{e.message}"
+  retry
 end
 

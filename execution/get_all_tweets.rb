@@ -80,6 +80,7 @@ begin
       # aldaa zaagaad garahad hamgiin suul done list-d bichigdeh id-n response code n !=200
       # baival ene id-n umnuh hurtelhiig ids-s ustgaad dahij retry hiih uydee ene id-s ehelne
       # gehdee tiim azgui yum baimaargui um
+      sleep(10)
       next
     end 
     if !done_list.include? id and client.user?(id)
