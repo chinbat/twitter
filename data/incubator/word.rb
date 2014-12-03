@@ -21,7 +21,7 @@ $cnt = 0
 data_array.each do |tweet|
   $tw = tweet
   $cnt += 1
-  if tweet["text"] == ""
+  if tweet["text"] == "" or tweet["text"].include? "きつねかわいい"
     next
   end
   node = c.parseToNode(tweet["text"])
