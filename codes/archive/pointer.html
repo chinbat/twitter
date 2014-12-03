@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Japan
+  </title>
+  <script type="text/JavaScript" src="jsDraw2D.js"></script>
+</head>
+<body>
+  <div id="map">    
+  </div>
+  <input type="file" id="fileinput" />
+</body>
+<script>
+function drawMesh(x,y,w,date){ 
+	 var img = document.createElement("img");
+	 //var rain = document.createElement("img");
+	 var sx = String(x);
+	 var sy = String(y);
+	 var sw = String(w);
+	 img.src= "http://m.map.c.yimg.jp/m?x=" + sx + "&y=" + sy + "&z=7&r=1&mode=weather-radar";
+	 //rain.src= "http://weather.map.c.yimg.jp/weather?x=" + sx + "&y=" + sy + "&z=7&date=" + date;
+	 img.width= sw;
+	 //rain.width= sw;
+	 //img.border= 1;
+	 //rain.border= 1;
+	 img.style.position= "absolute";
+	 img.style.left= String((x-54)*w+50)+"px";
+	 img.style.top= String((8-y)*w+50)+"px";
+	 //rain.style.position= "absolute";
+	 //rain.style.left= String((x-54)*w+50)+"px";
+	 //rain.style.top= String((8-y)*w+50)+"px";
+	 var map = document.getElementById("map");
+	 map.appendChild(img);
+	 //map.appendChild(rain);
+}
+ date = "201411081400"
+ w = 100
+ drawMesh(54,5,w ,date);
+ drawMesh(54,4,w ,date);
+ drawMesh(55,6,w ,date);
+ drawMesh(55,5,w ,date);
+ drawMesh(56,8,w ,date);
+ drawMesh(56,7,w ,date);
+ drawMesh(56,6,w ,date);
+ drawMesh(57,8,w ,date);
+ drawMesh(57,7,w ,date);
+ drawMesh(57,6,w ,date);
+ 
+function draw_point(lati,longi){
+ var gr = new jsGraphics(document.getElementById("map"));
+ var col = new jsColor("red");
+ var pen = new jsPen(col,1);
+ var w = 100;
+ plat = Math.log((1+Math.sin(lati*Math.PI/180))/(1-Math.sin(lati*Math.PI/180)))/(4*Math.PI)*64
+ plong = (longi+180)*64/360
+ x = Math.floor(plong)
+ y = Math.floor(plat)
+ xpos = 50 +  (x-54)*w + Math.floor((plong-x)*w)
+ ypos = 50 + (8-y)*w + w - 1 - Math.floor((plat-y)*w)
+ console.log(xpos,ypos)
+ var pt = new jsPoint(xpos,ypos);
+ gr.fillCircle(col,pt,1);
+}
+
+function readSingleFile(evt) {
+    //Retrieve the first (and only!) File from the FileList object
+    var f = evt.target.files[0]; 
+
+    if (f) {
+    	var r = new FileReader();
+    	r.onload = function(e) { 
+	    	var contents = e.target.result;
+	    	//console.log(contents)
+        	/*alert( "Got the file.n" 
+              +"name: " + f.name + "n"
+              +"type: " + f.type + "n"
+              +"size: " + f.size + " bytesn"
+              + "starts with: " + contents.substr(1, contents.indexOf("n"))
+        	);*/
+			var lines = contents.split('\n');
+			for(var line = 0; line < lines.length; line++){
+				var point = lines[line]
+				var coordinates = lines[line].split(',');
+				var y = parseFloat(coordinates[0]);
+				var x = parseFloat(coordinates[1]);
+				draw_point(x,y)
+			}
+		};
+    	r.readAsText(f);
+    } else { 
+      alert("Failed to load file");
+    }
+}
+
+document.getElementById('fileinput').addEventListener('change', readSingleFile, false);
+</script>
+
+</html>
