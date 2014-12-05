@@ -58,7 +58,7 @@ function draw_point(lati,longi){
  y = Math.floor(plat)
  xpos = 50 +  (x-54)*w + Math.floor((plong-x)*w)
  ypos = 50 + (8-y)*w + w - 1 - Math.floor((plat-y)*w)
- console.log(xpos,ypos)
+ //console.log(xpos,ypos)
  var pt = new jsPoint(xpos,ypos);
  gr.fillCircle(col,pt,1);
 }
@@ -82,8 +82,9 @@ function readSingleFile(evt) {
 			for(var line = 0; line < lines.length; line++){
 				var point = lines[line]
 				var coordinates = lines[line].split(',');
-				var y = parseFloat(coordinates[0]);
-				var x = parseFloat(coordinates[1]);
+				var x = parseFloat(coordinates[0]);
+				var y = parseFloat(coordinates[1]);
+				console.log(line,x,y)
 				draw_point(x,y)
 			}
 		};
