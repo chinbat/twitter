@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'oauth'
 require 'json'
-require_relative '../yauth'
+require_relative '../b2auth'
 
 consumer_key = OAuth::Consumer.new(
   CONKEY, CONSEC)
