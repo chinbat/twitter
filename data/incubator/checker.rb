@@ -10,7 +10,7 @@ cnt = 0
 data_array.each do |tweet|
   if tweet["text"].include? "雨"
     cnt += 1
-    res.puts tweet["coordinates"],tweet["text"]
+    res.puts tweet["coordinates"]
   end
 end
 
