@@ -139,7 +139,7 @@ error_log = File.open(error_file,'a')
 r = /@[a-zA-Z0-9_]*/
 japanese = /(?:\p{Hiragana}|\p{Katakana}|[一-龠々]|[a-zA-Z0-9]|[.,。、ー])+/
 c = MeCab::Tagger.new
-for i in 0..30
+for i in 0..0
   json_target = "twout#{i}"
   $local_base_dir = "#{json_target}/"
   FileUtils::mkdir_p "#{$local_base_dir}" unless File.exist?("#{$local_base_dir}")
@@ -149,7 +149,8 @@ for i in 0..30
   $stderr.reopen(stderr_file,'w')
 
   start = Time.now
-  json_file = "#{$base_dir}twouts/#{json_target}.json"
+  #json_file = "#{$base_dir}twouts/#{json_target}.json"
+  json_file = "test.json"
   png_log_file = "#{$local_base_dir}#{json_target}_png_log.txt"
   out_file = "#{$local_base_dir}#{json_target}_edited.json"
   log_file = "#{$local_base_dir}#{json_target}_log.txt"
@@ -173,7 +174,6 @@ for i in 0..30
   $no_png_cnt = 0 # can't download
   tweets = []
   data_array['tweets'].each do |tweet|
-    puts "entered"
     tweet_start = Time.now
     cnt_all += 1
     $tweet_log.print "Tweet:#{tweet['id']}, #{DateTime.now}, "
@@ -221,16 +221,19 @@ for i in 0..30
 	new_text << " "
 	text.slice! japanese.match(text).to_s
       end
+      tweet["text"] = new_text
       texts = []
-      node = c.parseToNode(new_text)
-      begin
-        node = node.next
-        word = node.surface.force_encoding("UTF-8")
-        feature = node.feature.split(/,/)[0]
-        oword = {"w"=>word,"f"=>feature}
-        texts.push oword
-      end until node.next.feature.include?("BOS/EOS")
-      tweet["text"] = texts
+      if new_text!=""
+        node = c.parseToNode(new_text)
+        begin
+          node = node.next
+          word = node.surface.force_encoding("UTF-8")
+          feature = node.feature.split(/,/)[0]
+          oword = {"w"=>word,"f"=>feature}
+          texts.push oword
+        end until node.next.feature.include?("BOS/EOS")
+      end
+      tweet["words"] = texts
       mecab_end = Time.now
       tweets.push tweet
       $tweet_log.puts "RainTime:#{rain_end-rain_start}, MeCabTime:#{mecab_end-mecab_start}, UsedTime:#{mecab_end-tweet_start}"
