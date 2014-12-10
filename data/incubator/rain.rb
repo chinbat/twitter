@@ -151,7 +151,7 @@ $base_url = "http://weather.map.c.yimg.jp/weather?"
 $base_dir = "/home/green/wimgs/"
 error_file = "#{$base_dir}error_log.txt"
 error_log = File.open(error_file,'a')
-for i in 0..60
+for i in 16..39
   json_target = "twout#{i}"
   $local_base_dir = "/home/green/wimgs/#{json_target}/"
   FileUtils::mkdir_p "#{$local_base_dir}" unless File.exist?("#{$local_base_dir}")

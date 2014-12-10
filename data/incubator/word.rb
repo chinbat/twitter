@@ -15,7 +15,6 @@ hiragana1 = /\p{Hiragana}/
 hiragana2 = /\p{hiragana}{2,2}/
 
 
-
 begin
 $cnt = 0
 data_array.each do |tweet|
