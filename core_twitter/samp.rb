@@ -1,7 +1,9 @@
 require 'rubygems'
 require 'oauth'
 require 'json'
+#require '../auth'
 require '../auth'
+
 
 def parse_response(response)
   parsed_data = nil
@@ -16,8 +18,8 @@ end
 
 
 baseurl = "https://api.twitter.com"
-#path = "/1.1/account/verify_credentials.json"
-path = "/1.1/users/show.json?user_id=536590678"
+path = "/1.1/account/verify_credentials.json"
+#path = "/1.1/users/show.json?user_id=536590678"
 address = URI("#{baseurl}#{path}")
 
 # Set up Net::HTTP to use SSL, which is required by Twitter.

@@ -14,11 +14,12 @@ romaji = /[a-zA-Z]+/
 hiragana1 = /\p{Hiragana}/
 hiragana2 = /\p{hiragana}{2,2}/
 
-
+s = Time.now
 begin
+time = File.open("time.txt",'w')
 $cnt = 0
 data_array.each do |tweet|
-  $tw = tweet
+  #$tw = tweet
   $cnt += 1
   if tweet["text"] == "" or tweet["text"].include? "きつねかわいい"
     next
@@ -33,6 +34,8 @@ data_array.each do |tweet|
     words[word] += 1
   end until node.next.feature.include?("BOS/EOS")
 end
+puts Time.now - s
+
 words = words.sort_by{|key, value| value}.reverse
 words.each do |key, value|
   res.puts "#{key}:#{value}"

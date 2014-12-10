@@ -1,3 +1,5 @@
+#-*- coding: UTF-8 -*-
+
 require 'net/http'
 require 'json'
 require 'fileutils'
@@ -18,11 +20,11 @@ def create_url(created_at, coordinates)
   elsif min == 5
     min = "05"
   end
-  lat = coordinates[/(?<=\[).+(?=\,)/].to_f
-  long = coordinates[/(?<=\s).+(?=\])/].to_f
+  $lat = coordinates[/(?<=\[).+(?=\,)/].to_f
+  $long = coordinates[/(?<=\s).+(?=\])/].to_f
   #puts lat,long
-  plat = Math.log((1+Math.sin(lat*Math::PI/180))/(1-Math.sin(lat*Math::PI/180)))/(4*Math::PI)*64
-  plong = (long+180)*64/360
+  plat = Math.log((1+Math.sin($lat*Math::PI/180))/(1-Math.sin($lat*Math::PI/180)))/(4*Math::PI)*64
+  plong = ($long+180)*64/360
   x = plong.to_i
   y = plat.to_i
   $xpos = ((plong-x)*256).to_i
@@ -47,7 +49,10 @@ def def_rain
       $crawler_log = File.open($crawler_log_file,'a')
       sleep(24*60*60-$next_yahoo+$yahoo_start+60*60)
     end
-    response = Net::HTTP.get_response($uri)
+    http = Net::HTTP.new($uri.host,$uri.port)
+    request = Net::HTTP::Get.new $uri.request_uri
+    http.start
+    response = http.request(request)
     if response.code == "200"
       $png_log.puts "Downloaded #{$base_dir}#{$filename}"
       $png_cnt += 1
@@ -71,7 +76,7 @@ def def_rain
       #not found
     else
       # write log
-      $png_log.puts "Unexpected response code #{$uri}. #{DateTime.now}"
+      $png_log.puts "Unexpected response code #{response.code} #{$uri}. #{DateTime.now}"
       $no_png_cnt += 1
       $rain_v = 16
       return
@@ -122,38 +127,21 @@ def def_rain
   end 
 end
 
-def mecaber(old_text)
-  text = old_text
-  new_text = ""
-  c = MeCab::Tagger.new
-  r = /@[a-zA-Z0-9_]*/
-  japanese = /(?:\p{Hiragana}|\p{Katakana}|[一-龠々]|[a-zA-Z0-9]|[.,。、ー])+/
-  while r.match(text)!= nil do
-    text.slice! r.match(text).to_s
-  end
-  URI.extract(text).each do |uri|
-    text.slice! uri
-  end
-  text.delete!("\n")
-  while japanese.match(text)!=nil do
-    new_text << japanese.match(text).to_s
-    new_text << " "
-    text.slice! japanese.match(text).to_s
-  end
-  new_text
-end
 
 begin
 $yahoo_start = Time.now
-$crawler_log_file = "/home/green/wimgs/log.txt"
+$crawler_log_file = "log.txt"
 $crawler_log = File.open($crawler_log_file,'a')
 $base_url = "http://weather.map.c.yimg.jp/weather?"
-$base_dir = "/home/green/wimgs/"
+$base_dir = ""
 error_file = "#{$base_dir}error_log.txt"
 error_log = File.open(error_file,'a')
-for i in 58..58
+r = /@[a-zA-Z0-9_]*/
+japanese = /(?:\p{Hiragana}|\p{Katakana}|[一-龠々]|[a-zA-Z0-9]|[.,。、ー])+/
+c = MeCab::Tagger.new
+for i in 0..30
   json_target = "twout#{i}"
-  $local_base_dir = "/home/green/wimgs/#{json_target}/"
+  $local_base_dir = "#{json_target}/"
   FileUtils::mkdir_p "#{$local_base_dir}" unless File.exist?("#{$local_base_dir}")
   stdout_file = "#{$local_base_dir}stdout.log"
   stderr_file = "#{$local_base_dir}stderr.log"
@@ -166,7 +154,6 @@ for i in 58..58
   out_file = "#{$local_base_dir}#{json_target}_edited.json"
   log_file = "#{$local_base_dir}#{json_target}_log.txt"
   tweet_log_file = "#{$local_base_dir}#{json_target}_tweet_log.txt"
-  puts json_file
   json = File.read(json_file)
   data_array = JSON.parse(json)
   $png_log = File.open(png_log_file,'w')
@@ -186,6 +173,7 @@ for i in 58..58
   $no_png_cnt = 0 # can't download
   tweets = []
   data_array['tweets'].each do |tweet|
+    puts "entered"
     tweet_start = Time.now
     cnt_all += 1
     $tweet_log.print "Tweet:#{tweet['id']}, #{DateTime.now}, "
@@ -210,18 +198,39 @@ for i in 58..58
       $tweet_log.print "normal, "
       cnt += 1
 
-
       create_url(tweet["created_at"], tweet["coordinates"])
-
+      tweet["lat"]=$lat
+      tweet["long"]=$long
       rain_start = Time.now
       def_rain
       tweet["rain"] = $rain_v
       rain_end = Time.now
 
       mecab_start = Time.now
-      old_text = tweet["text"]
-      new_text = mecaber(old_text)
-      tweet["text"]=new_text
+      text = tweet["text"]
+      new_text = ""
+      while r.match(text)!= nil do
+	text.slice! r.match(text).to_s
+      end
+      URI.extract(text).each do |uri|
+	text.slice! uri
+      end
+      text.delete!("\n")
+      while japanese.match(text)!=nil do
+	new_text << japanese.match(text).to_s
+	new_text << " "
+	text.slice! japanese.match(text).to_s
+      end
+      texts = []
+      node = c.parseToNode(new_text)
+      begin
+        node = node.next
+        word = node.surface.force_encoding("UTF-8")
+        feature = node.feature.split(/,/)[0]
+        oword = {"w"=>word,"f"=>feature}
+        texts.push oword
+      end until node.next.feature.include?("BOS/EOS")
+      tweet["text"] = texts
       mecab_end = Time.now
       tweets.push tweet
       $tweet_log.puts "RainTime:#{rain_end-rain_start}, MeCabTime:#{mecab_end-mecab_start}, UsedTime:#{mecab_end-tweet_start}"
