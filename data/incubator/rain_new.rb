@@ -139,7 +139,7 @@ error_log = File.open(error_file,'a')
 r = /@[a-zA-Z0-9_]*/
 japanese = /(?:\p{Hiragana}|\p{Katakana}|[一-龠々]|[a-zA-Z0-9]|[.,。、ー])+/
 c = MeCab::Tagger.new
-for i in 0..0
+for i in 0..39
   json_target = "twout#{i}"
   $local_base_dir = "#{json_target}/"
   FileUtils::mkdir_p "#{$local_base_dir}" unless File.exist?("#{$local_base_dir}")
@@ -149,8 +149,7 @@ for i in 0..0
   $stderr.reopen(stderr_file,'w')
 
   start = Time.now
-  #json_file = "#{$base_dir}twouts/#{json_target}.json"
-  json_file = "test.json"
+  json_file = "#{$base_dir}twouts/#{json_target}.json"
   png_log_file = "#{$local_base_dir}#{json_target}_png_log.txt"
   out_file = "#{$local_base_dir}#{json_target}_edited.json"
   log_file = "#{$local_base_dir}#{json_target}_log.txt"
@@ -199,6 +198,10 @@ for i in 0..0
       cnt += 1
 
       create_url(tweet["created_at"], tweet["coordinates"])
+      nlat = (($lat-21.94)/0.02314).to_i
+      nlong = (($long-123.75)/0.0225).to_i
+      $lat = nlat*0.02314+21.94+0.02314/2
+      $long = nlong*0.0225 + 123.75 + 0.0225/2
       tweet["lat"]=$lat
       tweet["long"]=$long
       rain_start = Time.now
