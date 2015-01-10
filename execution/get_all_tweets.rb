@@ -5,21 +5,23 @@ require "../yauth"
 require '../b2auth'
 
 begin
-  stdout_file = "/home/green/user_tweets/stdout.log"
-  stderr_file = "/home/green/user_tweets/stderr.log"
+  stdout_file = "../../data/user_tweets/stdout.log"
+  stderr_file = "../../data/user_tweets/stderr.log"
   $stdout.reopen(stdout_file,'a')
   $stderr.reopen(stderr_file,'a')
   
-  log_file = "/home/green/user_tweets/log"
+  log_file = "../../data/user_tweets/log"
   log = File.open(log_file,'a')
+
   done_list = Set.new
-  done_file = "/home/green/user_tweets/done_1.txt"
+  done_file = "../../data/user_tweets/done_1.txt"
   done = File.open(done_file).read
   done.each_line do |line|
     done_list.add(line.to_i)
   end
   done = File.open(done_file,'a')
-  ids_file = "/home/green/user_tweets/ids_1.txt"
+
+  ids_file = "../../data/user_tweets/all_user_ids.txt"
   ids = File.open(ids_file).read
   client = Twitter::REST::Client.new do |config|
     config.consumer_key        = CONKEY
@@ -35,7 +37,7 @@ begin
   end
 
   def client.get_all_tweets(user_id)
-    f = open("/home/green/user_tweets/tweets/#{user_id}.json","a")
+    f = open("../../data/user_tweets/tweets/#{user_id}.json","a")
     cnt = 0
     tweets = Array.new
     user = user(user_id)
@@ -59,11 +61,15 @@ begin
   end
 
   user_cnt = 0
+  rate_cnt = 0
   consumer_key2 = OAuth::Consumer.new(CONKEY2, CONSEC2)
   access_token2 = OAuth::Token.new(ACCTOK2, ACCSEC2)
 
   ids.each_line do |line|
     id = line.to_i
+    if done_list.include? id
+      next
+    end
     address = URI("https://api.twitter.com/1.1/users/show.json?user_id=#{id}")
     http = Net::HTTP.new address.host, address.port
     http.use_ssl = true
@@ -82,8 +88,8 @@ begin
       # gehdee tiim azgui yum baimaargui um
       sleep(10)
       next
-    end 
-    if !done_list.include? id and client.user?(id)
+    end    
+    if client.user?(id)
       user = client.user(id)
       if user.statuses_count >= 3000 and !user.protected?
         prev_time = Time.now
@@ -102,6 +108,10 @@ begin
 	end
       end
     end
+    rate_cnt += 1
+    if rate_cnt % 90 == 0
+      sleep(1000)
+    end
   end
 rescue Exception => e
   client.update("@chinbaa_chi Error has occured in User tweets collecting process at #{DateTime.now}.")
@@ -109,29 +119,29 @@ rescue Exception => e
   puts "done_file: #{done_file}"
   done.close
  
-  last_id = IO.readlines(done_file)[-1].to_i
-  ids = File.open(ids_file).read
+  #last_id = IO.readlines(done_file)[-1].to_i
+  #ids = File.open(ids_file).read
 
-  thereis = false
-  ids.each_line do |line|
-    if line.to_i == last_id
-      thereis = true
-      break
-    end
-  end
+  #thereis = false
+  #ids.each_line do |line|
+  #  if line.to_i == last_id
+  #    thereis = true
+  #    break
+  #  end
+  #end
 
-  if thereis
-    file = File.open(ids_file,'w')
-    reached = false
-    ids.each_line do |line|
-      if !reached
-	reached = true unless last_id != line.to_i
-      else
-	file.puts line
-      end
-    end
-    file.close 
-  end
+  #if thereis
+  #  file = File.open(ids_file,'w')
+  #  reached = false
+  #  ids.each_line do |line|
+  #    if !reached
+  #	reached = true unless last_id != line.to_i
+  #    else
+  #	file.puts line
+  #    end
+  #  end
+  #  file.close 
+  #end
   sleep(1000)
   retry
 end

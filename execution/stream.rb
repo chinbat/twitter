@@ -4,8 +4,8 @@ require "json"
 require '../yauth'
 
 begin
-  stdout_file = "../../data/logs/stdout.log"
-  stderr_file = "../../data/logs/stderr.log"
+  stdout_file = "../../data/tweets/logs/stdout.log"
+  stderr_file = "../../data/tweets/logs/stderr.log"
   $stdout.reopen(stdout_file,'a')
   $stderr.reopen(stderr_file,'a')
 
@@ -15,16 +15,16 @@ begin
   kilo = 1024
   locations = ["123.75,21.94,129.375,31.95","129.375,27.05,135,36.59","135,31.95,146.25,36.59","135,36.59,146.25,40.98","135,40.98,146.25,45.08"]
   
-  counter_file = "../../data/logs/count_number"
+  counter_file = "../../data/tweets/logs/count_number"
   old_cnt = File.read(counter_file).to_i
   twout_counter = old_cnt / file_number
   twout_file = "../../data/tweets/twout#{twout_counter}.json"
   twout = File.open(twout_file,'a') # create a file and add this if the file is new: {"tweets":[
-  file_log_file = "../../data/logs/file_log"
+  file_log_file = "../../data/tweets/logs/file_log"
   file_log = File.open(file_log_file,'a')
   file_log.puts "Started to write to twout#{twout_counter}.json at #{DateTime.now}"
   file_log.close
-  process_file = "../../data/logs/process_log"
+  process_file = "../../data/tweets/logs/process_log"
   process = File.open(process_file,'a')
 
   client = Twitter::Streaming::Client.new do |config|
