@@ -5,16 +5,16 @@ require "fileutils"
   #$stdout.reopen("stdout.txt","a")
   #$stderr.reopen("stderr.txt","a")
 
-  log = File.open("estimator_log.txt","w")
+  log = File.open("../../data/estimator_log.txt","w")
   valid_users = Array.new
-  valid = File.foreach("valid_users")
+  valid = File.foreach("../../data/valid_users")
   valid.each do |user|
     valid_users << user.to_i
   end
   
-  res = File.open("estimation_res.txt","a")
+  #res = File.open("estimation_res.txt","a")
   uc = 0
-  aw = File.read("/home/chinbat/bunseki/o50_json.txt")
+  aw = File.read("../../data/o50_json.txt")
   allw = JSON.parse(aw)["words"]
   all_words = Hash.new
   allw.each do |key,value|
@@ -25,15 +25,15 @@ require "fileutils"
   valid_users.each do |user|
     t1 = Time.now
     uc += 1
-    if uc!=2
-      next
-    end
+    #if uc!=2
+      #next
+    #end
     coordinates = Hash.new(0)
-    file = File.read("word_user/#{user}.json")
+    file = File.read("../../data/word_user/#{user}.json")
     data = JSON.parse(file)
     rloc = data["user"]["rloc"]
     data["words"].each do |key,value|
-      fn = "/home/chinbat/bunseki/rapidjson/rapidjson/include/gois/#{key}"
+      fn = "../../data/gois/#{key}"
       if File.exist?(fn)
         fw = File.foreach(fn)
         fw.each do |coor|
@@ -55,7 +55,7 @@ require "fileutils"
     end
     t2 = Time.now
     log.puts "Time: #{t2-t1}"
-    if uc == 2
+    if uc == 1
       exit
     end
   end
