@@ -22,7 +22,7 @@ end
 
   log = File.open("../../data/estimator_log.txt","a")
   valid_users = Array.new
-  valid = File.foreach("../../data/valid_users")
+  valid = File.foreach("../../data/new_valid_user")
   valid.each do |user|
     valid_users << user.to_i
   end
@@ -35,8 +35,8 @@ end
     all_words[key] = value
   end
   corpus = 20179133
-  for i in 5001..valid_users.length-1
-  #for i in 0..5000
+  #for i in 5001..valid_users.length-1
+  for i in 0..5000
     t1 = Time.now
     user = valid_users[i]
     uc += 1
@@ -68,8 +68,14 @@ end
     cr_cnt = 0
     num = 0
     first_num = 0
+    first_num_10 = 0
     flag = true
+    flag_10 = true
+    all_prob = 0
+    all_dist = 0
+    all_dist2 = 0
     coordinates.each do |key,value|
+      all_prob += value.to_f
       cr_cnt += 1
       if key == rloc
         num = cr_cnt
@@ -78,14 +84,23 @@ end
       lat = t[0].to_f
       lon = t[1].to_f
       dist = distance(rlat,rlon,lat,lon)
+      if cr_cnt <= 100
+        all_dist += dist
+        all_dist2 += dist * dist
+      end
+      #all_dist += dist
       if flag and dist <= 160
         first_num = cr_cnt
         flag = false
       end
+      if flag_10 and dist <= 10
+        first_num_10 = cr_cnt
+        flag_10 = false
+      end
       res.puts "#{key},#{value}"
     end
     t2 = Time.now
-    log.puts "#{uc},#{user},#{rloc},#{first_num},#{num},#{coordinates.length},#{coordinates[0][1]},#{t2-t1}"
+    log.puts "#{uc},#{user},#{rloc},#{first_num},#{first_num_10},#{num},#{coordinates.length},#{coordinates[0][1]},#{all_prob},#{all_dist/100},#{Math.sqrt(all_dist2/100-all_dist*all_dist/10000)},#{t2-t1}"
     log.close
     log = File.open("../../data/estimator_log.txt","a")
   end
