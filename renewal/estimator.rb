@@ -35,8 +35,8 @@ end
     all_words[key] = value
   end
   corpus = 20179133
-  #for i in 0..valid_users.length-1
-  for i in 0..5000
+  for i in 5001..valid_users.length-1
+  #for i in 0..5000
     t1 = Time.now
     user = valid_users[i]
     uc += 1
