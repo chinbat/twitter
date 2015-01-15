@@ -65,7 +65,7 @@ end
           long = t[1].to_f
           n = t[2].to_f
           coordinate = "#{lat},#{long}"
-          coordinates[coordinate] += value.to_f *n / all_words[key] * data["words"][key].to_f / u_corpus
+          coordinates[coordinate] += value.to_f * n / all_words[key] * data["words"][key] / u_corpus
           # new model below
         end
       end
