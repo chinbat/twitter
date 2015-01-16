@@ -47,7 +47,7 @@ for i in 0..0
     end
   end
   #word = all_words[i]
-  word = "調布"
+  word = "駅"
   file = "../../data/gois/#{word}"
   out_file = "../../data/smooth_gois/#{word}"
   out = File.open(out_file,"w")
