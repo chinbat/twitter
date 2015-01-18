@@ -20,7 +20,7 @@ end
   #$stdout.reopen("stdout.txt","a")
   #$stderr.reopen("stderr.txt","a")
 
-  log = File.open("../../data/estimator_log.txt","a")
+  log = File.open("../../data/estimator_log_1.txt","a")
   valid_users = Array.new
   valid = File.foreach("../../data/new_valid_user")
   valid.each do |user|
@@ -40,7 +40,7 @@ end
     t1 = Time.now
     user = valid_users[i]
     uc += 1
-    res = File.open("../../data/est_res/#{user}.txt","w")
+    res = File.open("../../data/est_res_1/#{user}.txt","w")
     coordinates = Hash.new(0)
     file = File.read("../../data/word_user/#{user}.json")
     data = JSON.parse(file)
@@ -48,13 +48,6 @@ end
     rloc_sp = rloc.split(',')
     rlat = rloc_sp[0].to_f
     rlon = rloc_sp[1].to_f
-    u_corpus = 0
-    data["words"].each do |key,value|
-      fn = "../../data/gois/#{key}"
-      if File.exist?(fn)
-        u_corpus += value.to_f
-      end
-    end
     data["words"].each do |key,value|
       fn = "../../data/gois/#{key}"
       if File.exist?(fn)
@@ -65,8 +58,7 @@ end
           long = t[1].to_f
           n = t[2].to_f
           coordinate = "#{lat},#{long}"
-          #coordinates[coordinate] += value.to_f * n / all_words[key] * data["words"][key] / u_corpus
-          coordinates[coordinate] += value.to_f * n / corpus
+          coordinates[coordinate] += value.to_f * n / all_words[key]
           # new model below
         end
       end
@@ -110,7 +102,7 @@ end
     t2 = Time.now
     log.puts "#{uc},#{user},#{rloc},#{first_num},#{first_num_10},#{num},#{coordinates.length},#{coordinates[0][1]},#{all_prob},#{all_dist/100},#{Math.sqrt(all_dist2/100-all_dist*all_dist/10000)},#{t2-t1}"
     log.close
-    log = File.open("../../data/estimator_log.txt","a")
+    log = File.open("../../data/estimator_log_1.txt","a")
   end
 
 #rescue Exception => e
