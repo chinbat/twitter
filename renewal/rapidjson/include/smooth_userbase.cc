@@ -98,11 +98,9 @@ int main(){
   }
   //cout << gois["twitter"]<<endl;
   int corpus = 20179133;
-  //cout<<INT_MAX<<endl;
-  //cout<<corpus<<endl;return 0;
+  //cout<<INT_MAX<<endl;return 0;
   for(int i=0; i<5000; i++){
   //for(int i=0; i<1; i++){
-  //cout<<INT_MAX<<endl;return 0;
     clock_t t1 = clock();
     unordered_map<string,double> coordinates;
     string user = users[i];
@@ -135,10 +133,10 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/gois/"+key_s.str();
+      string goi_file = "../../../../data/smooth_gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
-        fclose(p)
+        fclose(p);
         u_corpus += value;
       }
     }
@@ -196,10 +194,10 @@ int main(){
     cout<<mapcopy.begin()->second<<endl;
     return 0;*/
 
-    int cr_cnt = 0;
-    int num = 0;
-    int first_num =0;
-    int first_num_10 = 0;
+    long int cr_cnt = 0;
+    long int num = 0;
+    long int first_num =0;
+    long int first_num_10 = 0;
     bool flag = true;
     bool flag_10 = true;
     double all_prob = 0;
