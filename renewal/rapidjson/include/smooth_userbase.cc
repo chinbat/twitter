@@ -99,8 +99,8 @@ int main(){
   //cout << gois["twitter"]<<endl;
   int corpus = 20179133;
   //cout<<INT_MAX<<endl;return 0;
-  //for(int i=0; i<5000; i++){
-  for(int i=0; i<1; i++){
+  for(int i=0; i<5000; i++){
+  //for(int i=0; i<1; i++){
     clock_t t1 = clock();
     unordered_map<string,double> coordinates;
     string user = users[i];
@@ -133,10 +133,10 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/gois/"+key_s.str();
+      string goi_file = "../../../../data/smooth_gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
-        fclose(p)
+        fclose(p);
         u_corpus += value;
       }
     }
@@ -148,7 +148,7 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/gois/"+key_s.str();
+      string goi_file = "../../../../data/smooth_gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
         fclose(p);
