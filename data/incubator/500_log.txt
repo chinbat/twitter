@@ -1,3 +1,0 @@
-Converted /root/twitter/data/incubator/500.json to /root/twitter/data/incubator/500_edited.json 2014-11-29T02:47:10+09:00
-geo:0, plc:0, ctd:0, country:0, lang:13, rain_cnt0:467, rain_cnt15:0, cnt:487, cnt_all:500, png_cnt: 13, no_png_cnt:0
-Whole spent time: 46.529563572
