@@ -209,7 +209,7 @@ int main(){
       double lat = coor[0];
       double lon = coor[1];
       double dist = distance(rlat,rlon,lat,lon);
-      if (cr_cnt <= 100){
+      if (cr_cnt <= 10){
         all_dist += dist;
         all_dist2 += dist * dist;
       }
@@ -225,7 +225,7 @@ int main(){
     }
     fclose(res);
     clock_t t2 = clock();
-    fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/100,sqrt(all_dist2/100-all_dist*all_dist/10000),(double)(t2-t1)/CLOCKS_PER_SEC);
+    fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/10,sqrt(all_dist2/10-all_dist*all_dist/100),(double)(t2-t1)/CLOCKS_PER_SEC);
     fclose(log);
     log = fopen("../../../../data/estimator_log.txt","a");  
   }
