@@ -98,7 +98,7 @@ int main(){
     gois[goi1.GetString()] = cnt;
   }
   //cout << gois["twitter"]<<endl;
-  int corpus = 866266;
+  //int corpus = 7866266;
   //int corpus = 20179133;
   //cout<<INT_MAX<<endl;
   //cout<<corpus<<endl;return 0;
@@ -137,7 +137,7 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/cut_gois/"+key_s.str();
+      string goi_file = "../../../../data/trans_gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
         fclose(p);
@@ -152,7 +152,7 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/cut_gois/"+key_s.str();
+      string goi_file = "../../../../data/trans_gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
         fclose(p);
@@ -181,8 +181,8 @@ int main(){
             if (got == coordinates.end()){
               coordinates[coordinate] = 0;
             }
-            //coordinates[coordinate] += (double)(value * n) / corpus;
-            coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
+            coordinates[coordinate] += (double)(value * n);
+            //coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
           }
         }       
       }

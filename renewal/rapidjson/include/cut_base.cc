@@ -98,7 +98,7 @@ int main(){
     gois[goi1.GetString()] = cnt;
   }
   //cout << gois["twitter"]<<endl;
-  int corpus = 866266;
+  int corpus = 7866266;
   //int corpus = 20179133;
   //cout<<INT_MAX<<endl;
   //cout<<corpus<<endl;return 0;
@@ -181,8 +181,8 @@ int main(){
             if (got == coordinates.end()){
               coordinates[coordinate] = 0;
             }
-            //coordinates[coordinate] += (double)(value * n) / corpus;
-            coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
+            coordinates[coordinate] += (double)(value * n) / corpus;
+            //coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
           }
         }       
       }
