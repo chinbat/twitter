@@ -36,7 +36,7 @@ end
   end
   corpus = 20179133
   #for i in 5001..valid_users.length-1
-  for i in 0..5000
+  for i in 0..1000
     t1 = Time.now
     user = valid_users[i]
     uc += 1
@@ -50,13 +50,13 @@ end
     rlon = rloc_sp[1].to_f
     u_corpus = 0
     data["words"].each do |key,value|
-      fn = "../../data/smooth_gois/#{key}"
+      fn = "../../data/gois/#{key}"
       if File.exist?(fn)
         u_corpus += value.to_f
       end
     end
     data["words"].each do |key,value|
-      fn = "../../data/smooth_gois/#{key}"
+      fn = "../../data/gois/#{key}"
       if File.exist?(fn)
         fw = File.foreach(fn)
         fw.each do |coor|
@@ -91,7 +91,7 @@ end
       lat = t[0].to_f
       lon = t[1].to_f
       dist = distance(rlat,rlon,lat,lon)
-      if cr_cnt <= 100
+      if cr_cnt <= 10
         all_dist += dist
         all_dist2 += dist * dist
       end
@@ -107,7 +107,7 @@ end
       res.puts "#{key},#{value}"
     end
     t2 = Time.now
-    log.puts "#{uc},#{user},#{rloc},#{first_num},#{first_num_10},#{num},#{coordinates.length},#{coordinates[0][1]},#{all_prob},#{all_dist/100},#{Math.sqrt(all_dist2/100-all_dist*all_dist/10000)},#{t2-t1}"
+    log.puts "#{uc},#{user},#{rloc},#{first_num},#{first_num_10},#{num},#{coordinates.length},#{coordinates[0][1]},#{all_prob},#{all_dist/10},#{Math.sqrt(all_dist2/10-all_dist*all_dist/100)},#{t2-t1}"
     log.close
     log = File.open("../../data/estimator_log.txt","a")
   end
