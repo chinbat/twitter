@@ -63,7 +63,7 @@ int main(){
 
   return 0;
 */
-  FILE * log = fopen("../../../../data/estimator_log.txt","a");  
+  FILE * log = fopen("../../../../data/cut_base_log_1000.txt","a");  
   string users[11177];
   string line;
   ifstream myfile ("../../../../data/new_valid_user");
@@ -111,7 +111,7 @@ int main(){
     uc++;
     stringstream js;
     js << user;
-    FILE * res = fopen(("../../../../data/est_res/"+js.str()+".json").c_str(),"w");
+    FILE * res = fopen(("../../../../data/est_res_cut/"+js.str()+".json").c_str(),"w");
     string user_file = "../../../../data/word_user/" + js.str() + ".json";
     ifstream u(user_file);
     stringstream user_buffer;
@@ -137,7 +137,7 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/cut_gois/"+key_s.str();
+      string goi_file = "../../../../data/gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
         fclose(p);
@@ -152,7 +152,7 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
-      string goi_file = "../../../../data/cut_gois/"+key_s.str();
+      string goi_file = "../../../../data/gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
         fclose(p);
@@ -244,7 +244,7 @@ int main(){
     clock_t t2 = clock();
     fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/10,sqrt(all_dist2/10-all_dist*all_dist/100),(double)(t2-t1)/CLOCKS_PER_SEC);
     fclose(log);
-    log = fopen("../../../../data/estimator_log.txt","a");  
+    log = fopen("../../../../data/cut_base_log_1000.txt","a");  
   }
 return 0;
 }
