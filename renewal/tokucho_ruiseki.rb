@@ -1,10 +1,10 @@
 require "json"
 
-words_file = File.read("../../data/o50_json.txt")
+words_file = File.read("../../data/cut_gois.txt")
 words = JSON.parse(words_file)["words"]
 log = File.open("../../data/tokucho1.log","w")
 tokucho = File.open("../../data/tokucho1.goi","w")
-limit = 5
+limit = 10
 warai = /^[w]+$/ 
 
 map = Hash.new
@@ -41,11 +41,7 @@ words.each do |key,value|
       break
     end
   end
-  if cnt <= 10
-    tokucho.puts key
-  end
-  log.puts "#{key},#{len},#{value}"
-  if value.to_f/len >= 10
+  if cnt <= limit
     map[key] = value
   end
 end
