@@ -179,7 +179,7 @@ int main(){
           break;
         }
       }
-      string goi_file = "../../../../data/gois/"+key_s.str();
+      string goi_file = "../../../../data/cut_gois/"+key_s.str();
       //FILE * p = fopen(goi_file.c_str(),"r");
       if(flag){
         //fclose(p);
