@@ -137,11 +137,25 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
+/*
       string goi_file = "../../../../data/gois/"+key_s.str();
       FILE * p = fopen(goi_file.c_str(),"r");
       if(p){
         fclose(p);
         u_corpus += value;
+      }
+*/
+      for(SizeType k = 0; k < wds.Size(); k++){
+        Value& goi = wds[k];
+        assert(goi.IsArray());
+        SizeType i0 = 0;
+        SizeType i1 = 1;
+        Value& goi1 = goi[i0];
+        Value& num = goi[i1];
+        if (key==goi1.GetString()){
+          u_corpus += value;
+          break;
+        }
       }
     }
     //cout<<"test"<<endl;
@@ -152,10 +166,23 @@ int main(){
       stringstream key_s;
       key_s << key;
       int value = itr->value.GetInt();
+      bool flag=false;
+      for(SizeType k = 0; k < wds.Size(); k++){
+        Value& goi = wds[k];
+        assert(goi.IsArray());
+        SizeType i0 = 0;
+        SizeType i1 = 1;
+        Value& goi1 = goi[i0];
+        Value& num = goi[i1];
+        if (key==goi1.GetString()){
+          flag=true;
+          break;
+        }
+      }
       string goi_file = "../../../../data/gois/"+key_s.str();
-      FILE * p = fopen(goi_file.c_str(),"r");
-      if(p){
-        fclose(p);
+      //FILE * p = fopen(goi_file.c_str(),"r");
+      if(flag){
+        //fclose(p);
         string line;
         ifstream gfile (goi_file);
         if (gfile.is_open()){
