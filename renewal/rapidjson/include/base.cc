@@ -77,7 +77,8 @@ int main(){
   }
   
   int uc = 0;
-  string word_input = "../../../../data/o50_json.txt";
+  //string word_input = "../../../../data/o50_json.txt";
+  string word_input = "../../../../data/tokucho.goi";
   //string word_input = "../../../../data/cut_gois.txt";
   ifstream w(word_input);
   stringstream word_buffer;
