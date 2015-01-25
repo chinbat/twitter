@@ -2,15 +2,16 @@ require "json"
 
 words_file = File.read("../../data/cut_gois.txt")
 words = JSON.parse(words_file)["words"]
-log = File.open("../../data/tokucho1.log","w")
-tokucho = File.open("../../data/tokucho1.goi","w")
-limit = 10
+log = File.open("../../data/ruiseki_100.log","w")
+tokucho = File.open("../../data/ruiseki_100.goi","w")
+limit = 100
+perc = 0.9
 warai = /^[w]+$/ 
 
 map = Hash.new
 
 words.each do |key,value|
-#  if key!="駅"
+#  if key!="笑"
 #    next
 #  end
   if warai.match(key)!=nil
@@ -37,7 +38,7 @@ words.each do |key,value|
   frequency.each do |key1,value1|
     cnt_all += value1
     cnt += 1
-    if cnt_all.to_f/all >= 0.9
+    if cnt_all.to_f/all >= perc
       break
     end
   end

@@ -63,7 +63,7 @@ int main(){
 
   return 0;
 */
-  FILE * log = fopen("../../../../data/ruiseki_1000.txt","a");  
+  FILE * log = fopen("../../../../data/ruiseki_100.txt","a");  
   string users[11177];
   string line;
   ifstream myfile ("../../../../data/new_valid_user");
@@ -78,7 +78,7 @@ int main(){
   
   int uc = 0;
   //string word_input = "../../../../data/o50_json.txt";
-  string word_input = "../../../../data/tokucho1.goi";
+  string word_input = "../../../../data/ruiseki_100.goi";
   ifstream w(word_input);
   stringstream word_buffer;
   word_buffer << w.rdbuf()<<endl;
@@ -272,7 +272,7 @@ int main(){
     clock_t t2 = clock();
     fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/10,sqrt(all_dist2/10-all_dist*all_dist/100),(double)(t2-t1)/CLOCKS_PER_SEC);
     fclose(log);
-    log = fopen("../../../../data/ruiseki_1000.txt","a");  
+    log = fopen("../../../../data/ruiseki_100.txt","a");  
   }
 return 0;
 }
