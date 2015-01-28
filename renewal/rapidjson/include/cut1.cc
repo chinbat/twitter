@@ -63,7 +63,7 @@ int main(){
 
   return 0;
 */
-  FILE * log = fopen("../../../../data/ruiseki_10_9_userbase.txt","a");  
+  FILE * log = fopen("../../../../data/cut.txt","a");  
   string users[11177];
   string line;
   ifstream myfile ("../../../../data/new_valid_user");
@@ -77,8 +77,8 @@ int main(){
   }
   
   int uc = 0;
-  //string word_input = "../../../../data/o50_json.txt";
-  string word_input = "../../../../data/tokucho1.goi";
+  string word_input = "../../../../data/cut_gois_1.txt";
+  //string word_input = "../../../../data/tokucho1.goi";
   ifstream w(word_input);
   stringstream word_buffer;
   word_buffer << w.rdbuf()<<endl;
@@ -98,22 +98,23 @@ int main(){
     gois[goi1.GetString()] = cnt;
   }
   //cout << gois["twitter"]<<endl;
-  int corpus = 7866266;
+  int corpus = 7862333;
+  //int corpus = 7866266;
   //int corpus = 20179133;
   //cout<<INT_MAX<<endl;
   //cout<<corpus<<endl;return 0;
-  //for(int i=0; i<1000; i++){
-  for(int i=0; i<1; i++){
+  for(int i=0; i<1000; i++){
+  //for(int i=0; i<1; i++){
   //cout<<INT_MAX<<endl;return 0;
     clock_t t1 = clock();
     unordered_map<string,double> coordinates;
     string user = users[i];
-    cout<<user<<endl;
-    return 0;
+    //cout<<user<<endl;
+    //return 0;
     uc++;
     stringstream js;
     js << user;
-    FILE * res = fopen(("../../../../data/est_res_tokucho/"+js.str()+".json").c_str(),"w");
+    FILE * res = fopen(("../../../../data/res_cut/"+js.str()+".json").c_str(),"w");
     string user_file = "../../../../data/word_user/" + js.str() + ".json";
     ifstream u(user_file);
     stringstream user_buffer;
@@ -181,7 +182,7 @@ int main(){
           break;
         }
       }
-      string goi_file = "../../../../data/gois/"+key_s.str();
+      string goi_file = "../../../../data/cut_gois_1/"+key_s.str();
       //FILE * p = fopen(goi_file.c_str(),"r");
       if(flag){
         //fclose(p);
@@ -210,9 +211,9 @@ int main(){
             if (got == coordinates.end()){
               coordinates[coordinate] = 0;
             }
-            //coordinates[coordinate] += (double)(value * n) / corpus;
-            coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
-            fprintf(log,"%s,%s,%f\n",key.c_str(),coordinate.c_str(),value * ((double)n / gois[key]) * ((double)value/ u_corpus));
+            coordinates[coordinate] += (double)(value * n);
+            //coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
+            //fprintf(log,"%s,%s,%f\n",key.c_str(),coordinate.c_str(),value * ((double)n / gois[key]) * ((double)value/ u_corpus));
           }
         }       
       }
@@ -220,8 +221,10 @@ int main(){
     //sort coordinates
     vector<pair<string,double>> mapcopy(coordinates.begin(),coordinates.end());
     sort(mapcopy.begin(),mapcopy.end(),pairCompare);
-    if (mapcopy.size()==0)
+    if (mapcopy.size()<11){
+      //cout<<"no word"<<endl;
       continue;
+    }
     /*
     for(auto it=mapcopy.begin();it!=mapcopy.end();++it){
       //cout<<it->first<<","<<it->second<<endl;
@@ -229,10 +232,11 @@ int main(){
     cout<<mapcopy.begin()->second<<endl;
     return 0;*/
 
+    int size = 31366;
     int cr_cnt = 0;
-    int num = 0;
-    int first_num =0;
-    int first_num_10 = 0;
+    int num = size;
+    int first_num =size;
+    int first_num_10 = size;
     bool flag = true;
     bool flag_10 = true;
     double all_prob = 0;
@@ -257,7 +261,7 @@ int main(){
       double lat = coor[0];
       double lon = coor[1];
       double dist = distance(rlat,rlon,lat,lon);
-      fprintf(log,"%s,%f,%f\n",it->first.c_str(),it->second,dist);
+      //fprintf(log,"%s,%f,%f\n",it->first.c_str(),it->second,dist);
       if (cr_cnt <= 10){
         all_dist += dist;
         all_dist2 += dist * dist;
@@ -276,7 +280,7 @@ int main(){
     clock_t t2 = clock();
     fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/10,sqrt(all_dist2/10-all_dist*all_dist/100),(double)(t2-t1)/CLOCKS_PER_SEC);
     fclose(log);
-    log = fopen("../../../../data/ruiseki_10_9_userbase.txt","a");  
+    log = fopen("../../../../data/cut.txt","a");  
   }
 return 0;
 }

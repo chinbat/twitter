@@ -1,13 +1,13 @@
 require "json"
 
-log = File.open("../../data/cut_gois.txt","w")
-aw = File.read("../../data/o50_json.txt")
+log = File.open("../../data/cut_gois_1.txt","w")
+aw = File.read("../../data/o50_json_1.txt")
 allw = JSON.parse(aw)["words"]
 nw = Hash.new
 all = 0
 allw.each do |key,value|
   ifile = "../../data/gois/#{key}"
-  ofile = "../../data/cut_gois/#{key}"
+  ofile = "../../data/cut_gois_1/#{key}"
   i = File.foreach(ifile)
   o = File.open(ofile,"w")
   cnt = 0
@@ -31,7 +31,7 @@ allw.each do |key,value|
     all += cnt
   end
 end
-puts all
 nw = nw.sort_by{|key,value| value}.reverse
+puts nw.length
 nws = {:words=>nw}.to_json
 log.puts nws

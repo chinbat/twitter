@@ -63,7 +63,7 @@ int main(){
 
   return 0;
 */
-  FILE * log = fopen("../../../../data/ruiseki_10_9_userbase.txt","a");  
+  FILE * log = fopen("../../../../data/ruiseki_10_9.txt","a");  
   string users[11177];
   string line;
   ifstream myfile ("../../../../data/new_valid_user");
@@ -102,14 +102,12 @@ int main(){
   //int corpus = 20179133;
   //cout<<INT_MAX<<endl;
   //cout<<corpus<<endl;return 0;
-  //for(int i=0; i<1000; i++){
-  for(int i=0; i<1; i++){
+  for(int i=0; i<1000; i++){
+  //for(int i=0; i<1; i++){
   //cout<<INT_MAX<<endl;return 0;
     clock_t t1 = clock();
     unordered_map<string,double> coordinates;
     string user = users[i];
-    cout<<user<<endl;
-    return 0;
     uc++;
     stringstream js;
     js << user;
@@ -210,9 +208,8 @@ int main(){
             if (got == coordinates.end()){
               coordinates[coordinate] = 0;
             }
-            //coordinates[coordinate] += (double)(value * n) / corpus;
-            coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
-            fprintf(log,"%s,%s,%f\n",key.c_str(),coordinate.c_str(),value * ((double)n / gois[key]) * ((double)value/ u_corpus));
+            coordinates[coordinate] += (double)(value * n) / corpus;
+            //coordinates[coordinate] += value * ((double)n / gois[key]) * ((double)value/u_corpus);
           }
         }       
       }
@@ -257,7 +254,6 @@ int main(){
       double lat = coor[0];
       double lon = coor[1];
       double dist = distance(rlat,rlon,lat,lon);
-      fprintf(log,"%s,%f,%f\n",it->first.c_str(),it->second,dist);
       if (cr_cnt <= 10){
         all_dist += dist;
         all_dist2 += dist * dist;
@@ -276,7 +272,7 @@ int main(){
     clock_t t2 = clock();
     fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/10,sqrt(all_dist2/10-all_dist*all_dist/100),(double)(t2-t1)/CLOCKS_PER_SEC);
     fclose(log);
-    log = fopen("../../../../data/ruiseki_10_9_userbase.txt","a");  
+    log = fopen("../../../../data/ruiseki_10_9.txt","a");  
   }
 return 0;
 }

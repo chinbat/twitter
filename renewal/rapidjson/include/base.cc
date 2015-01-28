@@ -77,8 +77,8 @@ int main(){
   }
   
   int uc = 0;
-  //string word_input = "../../../../data/o50_json.txt";
-  string word_input = "../../../../data/tokucho.goi";
+  string word_input = "../../../../data/o50_json_1.txt";
+  //string word_input = "../../../../data/tokucho.goi";
   //string word_input = "../../../../data/cut_gois.txt";
   ifstream w(word_input);
   stringstream word_buffer;
@@ -100,7 +100,8 @@ int main(){
   }
   //cout << gois["twitter"]<<endl;
   //int corpus = 866266;
-  int corpus = 20179133;
+  //int corpus = 20179133;
+  int corpus = 18704373;
   //cout<<INT_MAX<<endl;
   //cout<<corpus<<endl;return 0;
   for(int i=0; i<1000; i++){

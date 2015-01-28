@@ -1,6 +1,6 @@
 require "json"
 
-words_file = File.read("../../data/cut_gois.txt")
+words_file = File.read("../../data/cut_gois_1.txt")
 words = JSON.parse(words_file)["words"]
 log = File.open("../../data/ruiseki_10_7.log","w")
 tokucho = File.open("../../data/ruiseki_10_7.goi","w")
