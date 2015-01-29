@@ -40,6 +40,9 @@ def check_rain(created_at)
     $xpos = ((plong-x)*256).to_i
     $ypos = ((plat-y)*256).to_i
     url = "#{$base_url}x=#{x}&y=#{y}&z=7&date=#{$year}#{$month}#{$day}#{hour}#{min}"
+    if $not_found.include? url
+      next
+    end
     $uri = URI(url)
     $filename = "#{$year}/#{$month}/#{$day}/x#{x}y#{y}_#{hour}#{min}.png"
     if !File.exist?("#{$base_dir}#{$filename}")
@@ -55,12 +58,8 @@ def check_rain(created_at)
         img = File.open("#{$base_dir}#{$filename}",'wb')
         img << response.body
         img.close
-      elsif response.code == "403"
-        puts "rate limit exceeded"
-      elsif response.code == "404"
-        puts "not found"
       else
-        puts "no idea"
+        $not_found.push url
       end
     end
     if File.exist?("#{$base_dir}#{$filename}")
@@ -90,12 +89,15 @@ end
 
 
 begin
+  $stdout.reopen("../../data/rain_stdout","w")
+  $stderr.reopen("../../data/rain_stderr","w")
   $base_url = "http://weather.map.c.yimg.jp/weather?"
   $base_dir = "../../data/img/"
   rain_words = ["雨降り","生憎","大雨","傘","雨","小雨","あめ","雷","アマ","高潮","中止","警報","カッパ","停電","予報","雪","足元","遅延","津波","強風","防災","気圧","hpa"]
   $log = File.open("../../data/user_rain.txt","a")
 #  log_rain = File.open("../../data/user_rain_char","a")
 
+  $not_found = Array.new
   valid_users = Array.new
   valid = File.foreach("../../data/new_valid_user")
   valid.each do |user|
@@ -104,7 +106,7 @@ begin
   
   limit = 100
   
-  for i in 0..1000
+  for i in 20..1000
 #  for i in 0..0
     t2 = Time.now
 #    puts i
