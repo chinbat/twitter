@@ -2,9 +2,9 @@ require "json"
 
 words_file = File.read("../../data/cut_gois_1.txt")
 words = JSON.parse(words_file)["words"]
-log = File.open("../../data/ratio_10.log","w")
-tokucho = File.open("../../data/ratio_10.goi","w")
-limit = 10
+log = File.open("../../data/ratio_3.log","w")
+tokucho = File.open("../../data/ratio_3.goi","w")
+limit = 3
 warai = /^[w]+$/ 
 
 map = Hash.new
