@@ -1,10 +1,11 @@
+require "date"
 require "json"
 require "fileutils"
+require "uri"
+require "net/http"
+require "chunky_png"
 
-$base_url = "http://weather.map.c.yimg.jp/weather?"
-$base_dir = "../../data/img/"
-
-def check_rain(created_at, coordinates)
+def check_rain(created_at)
   $year = created_at[0,4]
   $month = created_at[5,2]
   $day = created_at[8,2]
@@ -16,10 +17,22 @@ def check_rain(created_at, coordinates)
   elsif min == 5
     min = "05"
   end
-  coordinates.each do |key,value|
-    sc = key.split(",")
-    lat = sc[0]
-    long = sc[1]     
+  created = DateTime.new($year.to_i,$month.to_i,$day.to_i,hour.to_i,min.to_i)
+  limit = DateTime.new(2012,7,20,20,20)
+  if created < limit
+    return
+  end
+  $valid_rains += 1
+  cnt = 0
+  $all_c.each do |coor|
+    t1 = Time.now
+#    cnt += 1
+#    if cnt % 10 == 0
+#      puts cnt
+#    end
+    sc = coor.split(",")
+    lat = sc[0].to_f
+    long = sc[1].to_f
     plat = Math.log((1+Math.sin(lat*Math::PI/180))/(1-Math.sin(lat*Math::PI/180)))/(4*Math::PI)*64
     plong = (long+180)*64/360
     x = plong.to_i
@@ -49,17 +62,16 @@ def check_rain(created_at, coordinates)
       else
         puts "no idea"
       end
-      if File.exist?("#{$base_dir}#{$filename}")
-        image = ChunkyPNG::Image.from_file("#{$base_dir}#{$filename}")
-        color = ChunkyPNG::Color.to_hex(image[$xpos,255-$ypos], include_alph = false)
-        if color != "#000000"
-          puts "it's rain"
-        end
+    end
+    if File.exist?("#{$base_dir}#{$filename}")
+      image = ChunkyPNG::Image.from_file("#{$base_dir}#{$filename}")
+      color = ChunkyPNG::Color.to_hex(image[$xpos,255-$ypos], include_alph = false)
+      if color != "#000000"
+        $res_coor[coor] += 1
       end
     end
   end
 end
-
 
 R = 6371
 def distance(lat1,lon1,lat2,lon2)
@@ -75,13 +87,14 @@ def deg2rad(deg)
   return deg * (Math::PI/180)
 end
 
-rain_words = ["雨降り","生憎","大雨","傘","雨","小雨","あめ","雷","アマ","高潮","中止","警報","カッパ","停電","予報","雪","足元","遅延","津波","強風","防災","気圧","hpa"]
 
 
 begin
-  #$stdout.reopen("stdout.txt","a")
-  #$stderr.reopen("stderr.txt","a")
-  $log = File.open("../../data/user_rain.txt","w")
+  $base_url = "http://weather.map.c.yimg.jp/weather?"
+  $base_dir = "../../data/img/"
+  rain_words = ["雨降り","生憎","大雨","傘","雨","小雨","あめ","雷","アマ","高潮","中止","警報","カッパ","停電","予報","雪","足元","遅延","津波","強風","防災","気圧","hpa"]
+  $log = File.open("../../data/user_rain.txt","a")
+#  log_rain = File.open("../../data/user_rain_char","a")
 
   valid_users = Array.new
   valid = File.foreach("../../data/new_valid_user")
@@ -89,70 +102,104 @@ begin
     valid_users << user.to_i
   end
   
-  uc = 0
-#  aw = File.read("../../data/o50_json.txt")
-  aw = File.read("../../data/tokucho1.goi")
-  allw = JSON.parse(aw)["words"]
-  all_words = Hash.new
-  allw.each do |key,value|
-    all_words[key] = value
-  end
-#  corpus = 20179133
-  #for i in 5001..valid_users.length-1
+  limit = 100
+  
+  for i in 0..1000
+#  for i in 0..0
+    t2 = Time.now
+#    puts i
+    user = valid_users[i]
+    res = File.open("../../data/res_rain/#{user}","w")
+    coor_cnt = 0
+    all_coors = File.foreach("../../data/res_tokucho_userbase/#{user}.json")
+    all_coors.each do |coor|
+      coor_cnt += 1
+    end
 
-  for i in 70..70
-    t1 = Time.now
-    #user = valid_users[i]
-    user = "239544804"
-    #user = "1173665124"
+    c_cnt = 0
+    $all_c = Array.new
+    all_coors.each do |coor|
+      c_cnt += 1
+      cs = coor.split(",")
+      lat = cs[0]
+      long = cs[1] 
+      $all_c << "#{lat},#{long}"
+      if c_cnt == limit
+        break
+      end
+    end
+
     f = File.read("../../data/word_user/#{user}.json")
-    fd = JSON.parse(f)["words"]
+    data = JSON.parse(f)
     cnt = 0
-    fd.each do |key,value|
-      if all_words.include? key
-        cnt += 1
-        puts key
-      end
-    end
-    puts fd.length
-    puts cnt
-    exit
-    if !File.exist?("../../data/est_res_tokucho/#{user}.json")
-      next
-    end
-    coordinates0 = Hash.new
-    coordinates1 = Hash.new
-    coors = File.foreach("../../data/est_res_tokucho/#{user}.json")
-    coors.each do |coor|
-      sc = coor.split(",")
-      lat = sc[0]
-      long = sc[1]
-      freq = sc[2].to_f
-      coordinates1["#{lat},#{long}"] = freq.to_f
-      if freq!=0
-        coordinates0["#{lat},#{long}"] = freq.to_f
-      end
-    end
-    $log.puts "#{user},#{coordinates0.length},#{coordinates1.length}"
-    next
-    uc += 1
-    #res = File.open("../../data/est_res/#{user}.txt","w")
-    #coordinates = Hash.new(0)
+
     rloc = data["user"]["rloc"]
     rloc_sp = rloc.split(',')
     rlat = rloc_sp[0].to_f
     rlon = rloc_sp[1].to_f
+
     rains = 0
+    $valid_rains = 0
+    $res_coor = Hash.new(0)
     data["tweets"].each do |tweet|
       rain_words.each do |rword|
         if tweet["text"].include? rword
+          #puts tweet["text"]
           time = tweet["created_at"]
-          check_rain time,coordinates
+          check_rain time
           rains += 1
           break
         end
       end
     end
+    sorted = $res_coor.sort_by{|key,value| value}.reverse
+    sorted.each do |key,value|
+      res.puts "#{key},#{value}"
+    end
+
+    #log_rain.puts "#{i},#{user},#{rlat},#{rlon},#{rains},#{$valid_rains},#{sorted.length}"
+
+    cr_cnt = 0
+    size = 101
+    num = size
+    first_num =size
+    first_num_10 =size
+    flag = true
+    flag_10 = true
+    all_point = 0
+    all_dist = 0
+    all_dist2 = 0
+    sorted.each do |key,value|
+      all_point += value.to_i
+      cr_cnt += 1
+      if key == rloc
+        num = cr_cnt
+      end
+      t = key.split(",")
+      lat = t[0].to_f
+      lon = t[1].to_f
+      dist = distance(rlat,rlon,lat,lon)
+      if cr_cnt <= 10
+        all_dist += dist
+        all_dist2 += dist*dist
+      end
+      if flag and dist<=160
+        first_num = cr_cnt
+        flag = false
+      end
+      if flag_10 and dist <= 10
+        first_num_10 = cr_cnt
+        flag_10 = false
+      end
+    end
+
+    t3 = Time.now
+    time = t3-t2
+    $log.puts "#{i},#{user},#{rlat},#{rlon},#{first_num},#{first_num_10},#{num},#{$all_c.length},#{rains},#{$valid_rains},#{sorted.length},#{sorted[0][1]},#{all_point},#{all_dist/10},#{Math.sqrt(all_dist2/10-all_dist*all_dist/100)},#{time}"
+    $log.close
+    #log_rain.close
+    $log = File.open("../../data/user_rain.txt","a")
+    #log_rain = File.open("../../data/user_rain_char","a") 
   end
 rescue Exception=>e
   puts e.message
