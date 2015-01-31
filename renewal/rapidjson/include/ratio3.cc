@@ -63,7 +63,7 @@ int main(){
 
   return 0;
 */
-  FILE * log = fopen("../../../../data/ratio_3.txt","a");  
+  FILE * log = fopen("../../../../data/ratio_3_hist.txt","a");  
   string users[11177];
   string line;
   ifstream myfile ("../../../../data/new_valid_user");
@@ -77,7 +77,7 @@ int main(){
   }
   
   int uc = 0;
-  string word_input = "../../../../data/ratio_3.goi";
+  string word_input = "../../../../data/ratio_3_hist.goi";
   //string word_input = "../../../../data/tokucho1.goi";
   ifstream w(word_input);
   stringstream word_buffer;
@@ -114,7 +114,7 @@ int main(){
     uc++;
     stringstream js;
     js << user;
-    FILE * res = fopen(("../../../../data/res_ratio_3/"+js.str()+".json").c_str(),"w");
+    FILE * res = fopen(("../../../../data/res_ratio_3_hist/"+js.str()+".json").c_str(),"w");
     string user_file = "../../../../data/word_user/" + js.str() + ".json";
     ifstream u(user_file);
     stringstream user_buffer;
@@ -182,7 +182,7 @@ int main(){
           break;
         }
       }
-      string goi_file = "../../../../data/gois/"+key_s.str();
+      string goi_file = "../../../../data/trans_gois_1/"+key_s.str();
       //FILE * p = fopen(goi_file.c_str(),"r");
       if(flag){
         //fclose(p);
@@ -280,7 +280,7 @@ int main(){
     clock_t t2 = clock();
     fprintf(log,"%d,%s,%s,%d,%d,%d,%d,%f,%f,%f,%f,%f\n",uc,user.c_str(),rloc.GetString(),first_num,first_num_10,num,coordinates.size(),mapcopy.begin()->second,all_prob,all_dist/10,sqrt(all_dist2/10-all_dist*all_dist/100),(double)(t2-t1)/CLOCKS_PER_SEC);
     fclose(log);
-    log = fopen("../../../../data/ratio_3.txt","a");  
+    log = fopen("../../../../data/ratio_3_hist.txt","a");  
   }
 return 0;
 }

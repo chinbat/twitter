@@ -106,7 +106,7 @@ begin
   
   limit = 100
   
-  for i in 20..1000
+  for i in 135..999
 #  for i in 0..0
     t2 = Time.now
 #    puts i
@@ -117,7 +117,7 @@ begin
     all_coors.each do |coor|
       coor_cnt += 1
     end
-
+   # puts "cand: #{coor_cnt}"
     c_cnt = 0
     $all_c = Array.new
     all_coors.each do |coor|
@@ -153,6 +153,11 @@ begin
           break
         end
       end
+    end
+    #puts "rains: #{rains}"
+    #puts "res: #{$res_coor}"    
+    if $res_coor.length == 0
+      next
     end
     sorted = $res_coor.sort_by{|key,value| value}.reverse
     sorted.each do |key,value|
