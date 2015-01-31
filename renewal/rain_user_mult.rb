@@ -32,15 +32,13 @@ begin
   end
   
   limit = 100
-  puts "test" 
-  for i in 135..135
+  
+  for i in 0..264
     user = valid_users[i]
-    puts user
     res = File.open("../../data/res_rain_mult/#{user}","w")
     rain_r = File.foreach("../../data/res_rain/#{user}")
     rain_coor = Hash.new
     max_rain = 0
-    puts "test"
     rain_r.each do |coor|
       cs = coor.split(",")
       lat = cs[0]
@@ -51,10 +49,9 @@ begin
       end
       rain_coor["#{lat},#{long}"] = value
     end
-    puts "test"
-    if rain_coor.length == 0
+    if rain_coor.length == 0 
       next
-    end
+    end    
     coor_cnt = 0
     all_coors = File.foreach("../../data/res_tokucho_userbase/#{user}.json")
     all_coors.each do |coor|
