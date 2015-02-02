@@ -24,7 +24,7 @@ end
 begin
   #$stdout.reopen("../../data/rain_1_stdout","w")
   #$stderr.reopen("../../data/rain_1_stderr","w")
-  $log = File.open("../../data/user_rain_mult_500.txt","a")
+  $log = File.open("../../data/user_rain_mult_1000.txt","a")
   valid_users = Array.new
   valid = File.foreach("../../data/new_valid_user")
   valid.each do |user|
@@ -33,7 +33,7 @@ begin
   
   limit = 100
   
-  for i in 0..499
+  for i in 0..999
     user = valid_users[i]
     res = File.open("../../data/res_rain_mult/#{user}","w")
     rain_r = File.foreach("../../data/res_rain/#{user}")
@@ -127,7 +127,7 @@ begin
     $log.puts "#{i},#{user},#{rlat},#{rlon},#{first_num},#{first_num_10},#{num},#{$all_c.length},#{sorted.length},#{sorted[0][1]},#{all_point},#{all_dist/10},#{Math.sqrt(all_dist2/10-all_dist*all_dist/100)}"
     $log.close
     #log_rain.close
-    $log = File.open("../../data/user_rain_mult_500.txt","a")
+    $log = File.open("../../data/user_rain_mult_1000.txt","a")
     #log_rain = File.open("../../data/user_rain_char","a") 
   end
 rescue Exception=>e
