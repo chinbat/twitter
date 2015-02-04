@@ -1,37 +1,49 @@
 require "json"
 
-gf = File.read("../../data/ruiseki_100_9.goi")
-data = JSON.parse(gf)["words"]
-#filename = "../../data/tokucho1.goi"
-filename = "../../data/word_user/2291051576.json"
-#word = "twitter"
-#filename = "../../data/gois/#{word}"
-#f = File.foreach(filename)
-f = File.read(filename)
-#cnt = 0
-#f.each do |coor|
-#  cs = coor.split(",")
-#  lat = cs[0]
-#  long = cs[1]
-#  freq = cs[2].to_i
-#  cnt += freq
-#end
-#puts cnt
-log = File.open("test.log","w")
-fd = JSON.parse(f)["words"]
-words = Hash.new
-fd.each do |key,value|
-  words[key] = value
+first = 10
+
+res = File.open("../../data/user_word_dist.txt","w")
+wf = File.read("../../data/o50_json_1.txt")
+data = JSON.parse(wf)["words"]
+corpus = 0
+data.each do |key,value|
+  corpus += value
 end
-swords = words.sort_by{|key,value| value}.reverse
-swords.each do |key,value|
-  if data.include? key
-    log.puts "#{key},#{value}"
+cnt = 0
+zentai = Hash.new
+data.each do |key,value|
+  cnt += 1
+  if cnt <= first
+    zentai[key] = value.to_f/corpus
   end
 end
-#log.puts swords
 
-#fd.each do |key,value|
-#  corpus += value
-#end
-#puts corpus
+users = [1234217384,345237117,102827762,2421485492,121013287]
+
+result = Array.new
+result[0] = zentai
+for i in 1..users.length
+  u = File.read("../../data/word_user/#{users[i-1]}.json")
+  udata = JSON.parse(u)["words"]
+  ucorpus = 0
+  udata.each do |key,value|
+    ucorpus += value
+  end
+  usage = Hash.new
+  zentai.each do |key,value|
+    if udata.include? key
+      usage[key] = udata[key].to_f/ucorpus
+    else
+      usage[key] = 0
+    end
+  end
+  result[i] = usage
+end
+
+zentai.each do |key,value|
+  out = "#{key},#{value}"
+  for i in 1..users.length
+    out += ",#{result[i][key]}"
+  end
+  res.puts out
+end

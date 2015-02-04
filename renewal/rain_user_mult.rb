@@ -55,7 +55,11 @@ begin
     all_coors.each do |coor|
       coor_cnt += 1
     end
-
+    
+    if coor_cnt == 0
+      puts "yes"
+      next
+    end
     c_cnt = 0
     $all_c = Hash.new
     all_coors.each do |coor|
