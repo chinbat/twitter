@@ -24,7 +24,7 @@ end
 begin
   #$stdout.reopen("../../data/rain_1_stdout","w")
   #$stderr.reopen("../../data/rain_1_stderr","w")
-  $log = File.open("../../data/user_rain_mult_1000.txt","a")
+  $log = File.open("../../data/user_rain_mult_1000_new.txt","a")
   valid_users = Array.new
   valid = File.foreach("../../data/new_valid_user")
   valid.each do |user|
@@ -35,7 +35,7 @@ begin
   
   for i in 0..999
     user = valid_users[i]
-    res = File.open("../../data/res_rain_mult/#{user}","w")
+    res = File.open("../../data/res_rain_mult_new/#{user}","w")
     rain_r = File.foreach("../../data/res_rain/#{user}")
     rain_coor = Hash.new
     max_rain = 0
@@ -49,9 +49,7 @@ begin
       end
       rain_coor["#{lat},#{long}"] = value
     end
-    if rain_coor.length == 0 
-      next
-    end    
+   
     coor_cnt = 0
     all_coors = File.foreach("../../data/res_tokucho_userbase/#{user}.json")
     all_coors.each do |coor|
@@ -71,6 +69,7 @@ begin
         break
       end
     end
+
     f = File.read("../../data/word_user/#{user}.json")
     data = JSON.parse(f)
 
@@ -78,15 +77,24 @@ begin
     rloc_sp = rloc.split(',')
     rlat = rloc_sp[0].to_f
     rlon = rloc_sp[1].to_f
-
+ 
     $res_coor = Hash.new
-    rain_coor.each do |key,value|
-      $res_coor[key] = value * $all_c[key] / max_rain
-    end    
-    sorted = $res_coor.sort_by{|key,value| value}.reverse
-    sorted.each do |key,value|
-      res.puts "#{key},#{value}"
-    end
+    if rain_coor.length != 0 
+      $all_c.each do |key,value|
+        if rain_coor.include? key
+          $res_coor[key] = value * rain_coor[key]/max_rain
+        else
+          $res_coor[key] = value * 1 / max_rain
+        end
+      end
+      sorted = $res_coor.sort_by{|key,value| value}.reverse
+      sorted.each do |key,value|
+        res.puts "#{key},#{value}"
+      end
+    else
+      $res_coor = $all_c 
+    end 
+
 
     #log_rain.puts "#{i},#{user},#{rlat},#{rlon},#{rains},#{$valid_rains},#{sorted.length}"
 
@@ -127,7 +135,7 @@ begin
     $log.puts "#{i},#{user},#{rlat},#{rlon},#{first_num},#{first_num_10},#{num},#{$all_c.length},#{sorted.length},#{sorted[0][1]},#{all_point},#{all_dist/10},#{Math.sqrt(all_dist2/10-all_dist*all_dist/100)}"
     $log.close
     #log_rain.close
-    $log = File.open("../../data/user_rain_mult_1000.txt","a")
+    $log = File.open("../../data/user_rain_mult_1000_new.txt","a")
     #log_rain = File.open("../../data/user_rain_char","a") 
   end
 rescue Exception=>e
