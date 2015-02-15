@@ -1,0 +1,1 @@
+icpc -std=c++0x -o execution source.cc
