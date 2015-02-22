@@ -18,7 +18,7 @@ begin
   end
 
   def client.get_all_tweets(user_id)
-    f = open("../../data/after_the_defence_asobi_data/#{user_id}.json","w")
+    f = open("../../data/user_tweets/tweets/#{user_id}.json","a")
     cnt = 0
     tweets = Array.new
     user = user(user_id)
@@ -41,10 +41,16 @@ begin
     f.puts full_hash.to_json
   end
 
+  user_cnt = 0
+  rate_cnt = 0
   consumer_key = OAuth::Consumer.new(CONKEY, CONSEC)
   access_token = OAuth::Token.new(ACCTOK, ACCSEC)
-  ids = [71834665,1067448344,282603491,165374536,17704579]
-  ids.each do |id|
+
+  ids.each_line do |line|
+    id = line.to_i
+    if done_list.include? id
+      next
+    end
     address = URI("https://api.twitter.com/1.1/users/show.json?user_id=#{id}")
     http = Net::HTTP.new address.host, address.port
     http.use_ssl = true
@@ -53,11 +59,39 @@ begin
     request.oauth! http, consumer_key, access_token
     http.start
     response = http.request(request)
+    if response.code != "200"
+      log.puts "#{id} user's response was #{response.code}"
+      log.close
+      log = File.open(log_file,'a')
+      # done list-d bichigdeegui tul asuudal garj magad
+      # aldaa zaagaad garahad hamgiin suul done list-d bichigdeh id-n response code n !=200
+      # baival ene id-n umnuh hurtelhiig ids-s ustgaad dahij retry hiih uydee ene id-s ehelne
+      # gehdee tiim azgui yum baimaargui um
+      sleep(10)
+      next
+    end    
     if client.user?(id)
       user = client.user(id)
       if user.statuses_count >= 3000 and !user.protected?
+        prev_time = Time.now
 	client.get_all_tweets(id)
+        next_time = Time.now
+        log.puts "Collected tweets of user #{id} at #{DateTime.now}. Time:#{next_time-prev_time}"
+        log.close
+        log = File.open(log_file,'a')
+	done.puts id
+	done.close
+	user_cnt += 1
+	done_list.add(id)
+	done = File.open(done_file,'a')
+	if user_cnt % 9 == 0
+	  sleep(1000)
+	end
       end
+    end
+    rate_cnt += 1
+    if rate_cnt % 90 == 0
+      sleep(1000)
     end
   end
 rescue Exception => e

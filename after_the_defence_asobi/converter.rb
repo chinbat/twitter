@@ -19,7 +19,7 @@ hirakata = /^(?:\p{Hiragana}|\p{Katakana})+$/
 c = MeCab::Tagger.new
 
 log = File.open("convert_log.txt","a")
-valid_users = [1067448344,282603491,165374536,71834665,17704579]
+valid_users = [1067448344,282603491,165374536,17704579]
 uc = 0
 
 valid_users.each do |user|
