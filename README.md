@@ -41,7 +41,7 @@ ruby言語の学び
 データを地図にプロットするプログラム
 
 ##more_about_twitter_ruby
-Ruby言語向けの[https://github.com/sferik/twitter][twitter]ライブラリの簡単な使用例
+Ruby言語向けの[twitter](https://github.com/sferik/twitter)ライブラリの簡単な使用例
 
 ##rate_limit_checker
 TwitterのREST APIには使用制限があり、その為の現在の使用状況を確認するプログラム
